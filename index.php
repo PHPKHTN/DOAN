@@ -4,4 +4,5 @@
 	$title = "Shop Mobile HTT";
 	$smarty->assign('title', $title);
 	$smarty->display("layout.tpl");
+	//Da xem
 ?>
