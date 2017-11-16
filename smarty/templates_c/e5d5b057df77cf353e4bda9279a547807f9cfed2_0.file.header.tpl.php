@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-11-15 16:01:42
+/* Smarty version 3.1.30, created on 2017-11-16 16:13:54
   from "C:\wamp64\www\DOAN\smarty\templates\header.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5a0c64e6c1f0e7_85601642',
+  'unifunc' => 'content_5a0db9427ba481_80218830',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e5d5b057df77cf353e4bda9279a547807f9cfed2' => 
     array (
       0 => 'C:\\wamp64\\www\\DOAN\\smarty\\templates\\header.tpl',
-      1 => 1510761190,
+      1 => 1510848832,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5a0c64e6c1f0e7_85601642 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5a0db9427ba481_80218830 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!-- header modal -->
 	<div class="modal fade" id="myModal88" tabindex="-1" role="dialog" aria-labelledby="myModal88"
@@ -44,7 +44,7 @@ function content_5a0c64e6c1f0e7_85601642 (Smarty_Internal_Template $_smarty_tpl)
 									<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
 										<div class="facts">
 											<div class="register">
-												<form action="#" method="post">			
+												<form action="#" method="post">
 													<input name="Email" placeholder="Email Address" type="text" required="">						
 													<input name="Password" placeholder="Password" type="password" required="">										
 													<div class="sign-up">
@@ -72,7 +72,7 @@ function content_5a0c64e6c1f0e7_85601642 (Smarty_Internal_Template $_smarty_tpl)
 								</div>	
 							</div>
 							<?php echo '<script'; ?>
- src="js/easyResponsiveTabs.js" type="text/javascript"><?php echo '</script'; ?>
+ src="public/layout/js/easyResponsiveTabs.js" type="text/javascript"><?php echo '</script'; ?>
 >
 							<?php echo '<script'; ?>
  type="text/javascript">

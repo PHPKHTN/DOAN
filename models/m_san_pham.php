@@ -4,7 +4,7 @@ class M_san_pham extends database
 {
 	public function lay_san_pham_cho_gio_hang($chuoi)
 	{
-		$sql = "select * from san_pham";
+		$sql = "select s.*, h.* from san_pham s, hinh_san_pham h where s.ma_san_pham = h.ma_san_pham";
 		$this->setQuery($sql);
 		return $this->loadAllRows();
 	}
@@ -18,7 +18,7 @@ class M_san_pham extends database
 	
 	public function Doc_san_pham($vt=-1, $limit=-1)
 	{
-		$sql = "select * from san_pham";
+		$sql = "select s.*, h.* from san_pham s, hinh_san_pham h where s.ma_san_pham = h.ma_san_pham";
 		if($vt>=0 && $limit>0)
 		{
 			$sql .=" limit $vt, $limit";
@@ -29,14 +29,14 @@ class M_san_pham extends database
 	
 	public function Doc_san_pham_theo_ma_san_pham($ma_san_pham)
 	{
-		$sql = "select * from san_pham where ma_san_pham=?";
+		$sql = "select s.*, h.* from san_pham s, hinh_san_pham h where s.ma_san_pham = h.ma_san_pham and s.ma_san_pham=?";
 		$this->setQuery($sql);
 		return $this->loadRow(array($ma_san_pham));
 	}
 	
 	public function Doc_san_pham_cung_loai($ma_the_loai, $ma_san_pham, $vt=-1, $limit=-1)
 	{
-		$sql = "select * from san_pham where ma_the_loai=? and ma_san_pham!=?";
+		$sql = "select s.*, h.* from san_pham s, hinh_san_pham h where s.ma_san_pham = h.ma_san_pham and s.ma_the_loai=? and s.ma_san_pham!=?";
 		if($vt>=0 && $limit>0)
 		{
 			$sql .= " limit $vt,$limit";
