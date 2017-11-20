@@ -1,114 +1,609 @@
-<!-- header modal -->
-	<div class="modal fade" id="myModal88" tabindex="-1" role="dialog" aria-labelledby="myModal88"
-		aria-hidden="true">
-		<div class="modal-dialog modal-lg">
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-						&times;</button>
-					<h4 class="modal-title" id="myModalLabel">Don't Wait, Login now!</h4>
-				</div>
-				<div class="modal-body modal-body-sub">
-					<div class="row">
-						<div class="col-md-8 modal_body_left modal_body_left1" style="border-right: 1px dotted #C2C2C2;padding-right:3em;">
-							<div class="sap_tabs">	
-								<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
-									<ul>
-										<li class="resp-tab-item" aria-controls="tab_item-0"><span>Sign in</span></li>
-										<li class="resp-tab-item" aria-controls="tab_item-1"><span>Sign up</span></li>
-									</ul>		
-									<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
-										<div class="facts">
-											<div class="register">
-												<form action="#" method="post">
-													<input name="Email" placeholder="Email Address" type="text" required="">						
-													<input name="Password" placeholder="Password" type="password" required="">										
-													<div class="sign-up">
-														<input type="submit" value="Sign in"/>
-													</div>
-												</form>
-											</div>
-										</div> 
-									</div>	 
-									<div class="tab-2 resp-tab-content" aria-labelledby="tab_item-1">
-										<div class="facts">
-											<div class="register">
-												<form action="#" method="post">			
-													<input placeholder="Name" name="Name" type="text" required="">
-													<input placeholder="Email Address" name="Email" type="email" required="">	
-													<input placeholder="Password" name="Password" type="password" required="">	
-													<input placeholder="Confirm Password" name="Password" type="password" required="">
-													<div class="sign-up">
-														<input type="submit" value="Create Account"/>
-													</div>
-												</form>
-											</div>
-										</div>
-									</div> 			        					            	      
-								</div>	
-							</div>
-							<script src="public/layout/js/easyResponsiveTabs.js" type="text/javascript"></script>
-							<script type="text/javascript">
-								$(document).ready(function () {
-									$('#horizontalTab').easyResponsiveTabs({
-										type: 'default', //Types: default, vertical, accordion           
-										width: 'auto', //auto or any width like 600px
-										fit: true   // 100% fit in a container
-									});
-								});
-							</script>
-							<div id="OR" class="hidden-xs">OR</div>
-						</div>
-						<div class="col-md-4 modal_body_right modal_body_right1">
-							<div class="row text-center sign-with">
-								<div class="col-md-12">
-									<h3 class="other-nw">Sign in with</h3>
-								</div>
-								<div class="col-md-12">
-									<ul class="social">
-										<li class="social_facebook"><a href="#" class="entypo-facebook"></a></li>
-										<li class="social_dribbble"><a href="#" class="entypo-dribbble"></a></li>
-										<li class="social_twitter"><a href="#" class="entypo-twitter"></a></li>
-										<li class="social_behance"><a href="#" class="entypo-behance"></a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<script>
-		$('#myModal88').modal('show');
-	</script>  
-	<!-- header modal -->
-	<!-- header -->
-	<div class="header" id="home1">
-		<div class="container">
-			<div class="w3l_login">
-				<a href="#" data-toggle="modal" data-target="#myModal88"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
-			</div>
-			<div class="w3l_logo">
-				<h1><a href="index.html">Shop Mobile HTT<span>Your stores. Your place.</span></a></h1>
-			</div>
-			<div class="search">
-				<input class="search_box" type="checkbox" id="search_box">
-				<label class="icon-search" for="search_box"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></label>
-				<div class="search_form">
-					<form action="#" method="post">
-						<input type="text" name="Search" placeholder="Search...">
-						<input type="submit" value="Send">
-					</form>
-				</div>
-			</div>
-			<div class="cart cart box_1"> 
-				<form action="#" method="post" class="last"> 
-					<input type="hidden" name="cmd" value="_cart" />
-					<input type="hidden" name="display" value="1" />
-					<button class="w3view-cart" type="submit" name="submit" value=""><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
-				</form>   
-			</div>  
-		</div>
-	</div>
-	<!-- //header -->
+<header class="header">
+
+    <!-- Topbar - start -->
+    <div class="header_top">
+        <div class="container">
+            <ul class="contactinfo nav nav-pills">
+                <li>
+                    <i class='fa fa-phone'></i> +7 777 123 1575
+                </li>
+                <li>
+                    <i class="fa fa-envelope"></i> admin@real-web.pro
+                </li>
+            </ul>
+            <!-- Social links -->
+            <ul class="social-icons nav navbar-nav">
+                <li>
+                    <a href="http://facebook.com" rel="nofollow" target="_blank">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://google.com" rel="nofollow" target="_blank">
+                        <i class="fa fa-google-plus"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://twitter.com" rel="nofollow" target="_blank">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://vk.com" rel="nofollow" target="_blank">
+                        <i class="fa fa-vk"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://instagram.com" rel="nofollow" target="_blank">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>		</div>
+    </div>
+    <!-- Topbar - end -->
+
+    <!-- Logo, Shop-menu - start -->
+    <div class="header-middle">
+        <div class="container header-middle-cont">
+            <div class="toplogo">
+                <a href=".">
+                    <img src="public/images/layout/logo.png" alt="AllStore - MultiConcept eCommerce Template">
+                </a>
+            </div>
+            <div class="shop-menu">
+                <ul>
+
+                    <li>
+                        <a href="wishlist.html">
+                            <i class="fa fa-heart"></i>
+                            <span class="shop-menu-ttl">Wishlist</span>
+                            (<span id="topbar-favorites">1</span>)
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="compare.html">
+                            <i class="fa fa-bar-chart"></i>
+                            <span class="shop-menu-ttl">Compare</span> (5)
+                        </a>
+                    </li>
+
+                    <li class="topauth">
+                        <a href="auth.html">
+                            <i class="fa fa-lock"></i>
+                            <span class="shop-menu-ttl">Registration</span>
+                        </a>
+                        <a href="auth.html">
+                            <span class="shop-menu-ttl">Login</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <div class="h-cart">
+                            <a href="cart.html">
+                                <i class="fa fa-shopping-cart"></i>
+                                <span class="shop-menu-ttl">Cart</span>
+                                (<b>0</b>)
+                            </a>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Logo, Shop-menu - end -->
+
+    <!-- Topmenu - start -->
+    <div class="header-bottom">
+        <div class="container">
+            <nav class="topmenu">
+
+                <!-- Catalog menu - start -->
+                <div class="topcatalog">
+                    <a class="topcatalog-btn" href="catalog-list.html"><span>All</span> catalog</a>
+                    <ul class="topcatalog-list">
+                        <li>
+                            <a href="catalog-list.html">
+                                Women
+                            </a>
+                            <i class="fa fa-angle-right"></i>
+                            <ul>
+                                <li>
+                                    <a href="catalog-list.html">
+                                        Knitwear
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="catalog-list.html">
+                                        Dresses
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="catalog-list.html">
+                                        Bags
+                                    </a>
+                                    <i class="fa fa-angle-right"></i>
+                                    <ul>
+                                        <li>
+                                            <a href="catalog-list.html">
+                                                Shoulder Bags
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="catalog-list.html">
+                                                Falabella
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="catalog-list.html">
+                                                Becks
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="catalog-list.html">
+                                                Clutches
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="catalog-list.html">
+                                                Travel Bags
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="catalog-list.html">
+                                        Accessories
+                                    </a>
+                                    <i class="fa fa-angle-right"></i>
+                                    <ul>
+                                        <li>
+                                            <a href="catalog-list.html">
+                                                Sunglasses
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="catalog-list.html">
+                                                Tech Cases
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="catalog-list.html">
+                                                Jewelry
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="catalog-list.html">
+                                                Stella
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="catalog-list.html">
+                                        Coats & Jackets
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="catalog-list.html">
+                                Men
+                            </a>
+                            <i class="fa fa-angle-right"></i>
+                            <ul>
+                                <li>
+                                    <a href="catalog-list.html">
+                                        Jackets & Blazers
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="catalog-list.html">
+                                        Pants & Shorts
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="catalog-list.html">
+                                        Accessories
+                                    </a>
+                                    <i class="fa fa-angle-right"></i>
+                                    <ul>
+                                        <li>
+                                            <a href="catalog-list.html">
+                                                Bags
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="catalog-list.html">
+                                                Sunglasses
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="catalog-list.html">
+                                                Other Accessories
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="catalog-list.html">
+                                        Suiting
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="catalog-list.html">
+                                        Shirts
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="catalog-list.html">
+                                Kids
+                            </a>
+                            <i class="fa fa-angle-right"></i>
+                            <ul>
+                                <li>
+                                    <a href="catalog-list.html">
+                                        Girls
+                                    </a>
+                                    <i class="fa fa-angle-right"></i>
+                                    <ul>
+                                        <li>
+                                            <a href="catalog-list.html">
+                                                Outerwear
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="catalog-list.html">
+                                                T-Shirts
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="catalog-list.html">
+                                                Blouses & Shirts
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="catalog-list.html">
+                                                Pants & Shorts
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="catalog-list.html">
+                                                Sleepwear & Underwear
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="catalog-list.html">
+                                                Skirts
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="catalog-list.html">
+                                        Boys
+                                    </a>
+                                    <i class="fa fa-angle-right"></i>
+                                    <ul>
+                                        <li>
+                                            <a href="catalog-list.html">
+                                                Shoes & Accessories
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="catalog-list.html">
+                                                Jumpers & Cardigans
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="catalog-list.html">
+                                                Shirts
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="catalog-list.html">
+                                                Outerwear
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="catalog-list.html">
+                                                Swimwear
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="catalog-list.html">
+                                        Baby
+                                    </a>
+                                    <i class="fa fa-angle-right"></i>
+                                    <ul>
+                                        <li>
+                                            <a href="catalog-list.html">
+                                                Baby Sets
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="catalog-list.html">
+                                                Dresses & All-In-One
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="catalog-list.html">
+                                                Pants & Shorts
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="catalog-list.html">
+                                                Shoes & Accessories
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="catalog-list.html">
+                                                T-shirts
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="catalog-list.html">
+                                                Outerwear
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="catalog-list.html">
+                                Shoes
+                            </a>
+                            <i class="fa fa-angle-right"></i>
+                            <ul>
+                                <li>
+                                    <a href="catalog-list.html">
+                                        Women
+                                    </a>
+                                    <i class="fa fa-angle-right"></i>
+                                    <ul>
+                                        <li>
+                                            <a href="catalog-list.html">
+                                                Elyse
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="catalog-list.html">
+                                                Odette
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="catalog-list.html">
+                                                Brody
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="catalog-list.html">
+                                                Flats
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="catalog-list.html">
+                                                Sandals
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="catalog-list.html">
+                                        Men
+                                    </a>
+                                    <i class="fa fa-angle-right"></i>
+                                    <ul>
+                                        <li>
+                                            <a href="catalog-list.html">
+                                                Casual Shoes
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="catalog-list.html">
+                                                Sneakers
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="catalog-list.html">
+                                                Sandals
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="catalog-list.html">
+                                                Boots
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="catalog-list.html">
+                                                Mules & Clogs
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="catalog-list.html">
+                                        Children's
+                                    </a>
+                                    <i class="fa fa-angle-right"></i>
+                                    <ul>
+                                        <li>
+                                            <a href="catalog-list.html">
+                                                Girls
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="catalog-list.html">
+                                                Boys
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="catalog-list.html">
+                                        Baby Shoe
+                                    </a>
+                                    <i class="fa fa-angle-right"></i>
+                                    <ul>
+                                        <li>
+                                            <a href="catalog-list.html">
+                                                First Walkers
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="catalog-list.html">
+                                                Sneakers
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="catalog-list.html">
+                                                Boots
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="catalog-list.html">
+                                                Sandals & Clogs
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Catalog menu - end -->
+
+                <!-- Main menu - start -->
+                <button type="button" class="mainmenu-btn">Menu</button>
+
+                <ul class="mainmenu">
+                    <li>
+                        <a href=".">
+                            Trang chủ
+                        </a>
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a href="dien_thoai.php">
+                            Điện thoại <i class="fa fa-angle-down"></i>
+                        </a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="catalog-list.html">
+                                    Catalog List - Style 1
+                                </a>
+                            </li>
+                            <li>
+                                <a href="catalog-list-2.html">
+                                    Catalog List - Style 2
+                                </a>
+                            </li>
+                            <li>
+                                <a href="catalog-gallery.html">
+                                    Catalog Gallery - Style 1
+                                </a>
+                            </li>
+                            <li>
+                                <a href="catalog-gallery-2.html">
+                                    Catalog Gallery - Style 2
+                                </a>
+                            </li>
+                            <li>
+                                <a href="catalog-table.html">
+                                    Catalog Table
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a href="laptop.php">
+                            Laptop <i class="fa fa-angle-down"></i>
+                        </a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="product.html">
+                                    Product - Style 1 (Slider)
+                                </a>
+                            </li>
+                            <li>
+                                <a href="product-2.html">
+                                    Product - Style 2 (Scroll)
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a href="tablet.php">
+                            Tablet <i class="fa fa-angle-down"></i>
+                        </a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="product.html">
+                                    Product - Style 1 (Slider)
+                                </a>
+                            </li>
+                            <li>
+                                <a href="product-2.html">
+                                    Product - Style 2 (Scroll)
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a href="phu_kien.php">
+                            Phụ Kiện <i class="fa fa-angle-down"></i>
+                        </a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="product.html">
+                                    Product - Style 1 (Slider)
+                                </a>
+                            </li>
+                            <li>
+                                <a href="product-2.html">
+                                    Product - Style 2 (Scroll)
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="tin_tuc.php">
+                            Tin Tức
+                        </a>
+                    </li>
+                    <li>
+                        <a href="lien_he.php">
+                            Liên Hệ
+                        </a>
+                    </li>  
+                    <li class="mainmenu-more">
+                        <span>...</span>
+                        <ul class="mainmenu-sub"></ul>
+                    </li>
+                </ul>
+                <!-- Main menu - end -->
+
+                <!-- Search - start -->
+                <div class="topsearch">
+                    <a id="topsearch-btn" class="topsearch-btn" href="#"><i class="fa fa-search"></i></a>
+                    <form class="topsearch-form" action="#">
+                        <input type="text" placeholder="Tìm kiếm ...">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+                <!-- Search - end -->
+
+            </nav>		</div>
+    </div>
+    <!-- Topmenu - end -->
+
+</header>
+<!-- Header - end -->
+<main>
+    <section class="container">
+        {block name="slider"}{include file="slider.tpl"}{/block}

@@ -7,6 +7,7 @@
 			parent::__construct();
 			$this->setCacheDir("smarty/cache/");
 			$this->setCompileDir("smarty/templates_c/");
+			$this->setConfigDir("smarty/configs/");
 			$this->setTemplateDir("smarty/templates/");
 		}
 	}
