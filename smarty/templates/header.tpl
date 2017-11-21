@@ -5,7 +5,7 @@
         <div class="container">
             <ul class="contactinfo nav nav-pills">
                 <li>
-                    <i class='fa fa-phone'></i> +7 777 123 1575
+                    <i class='fa fa-phone'></i> (028) 38 399 000
                 </li>
                 <li>
                     <i class="fa fa-envelope"></i> admin@real-web.pro

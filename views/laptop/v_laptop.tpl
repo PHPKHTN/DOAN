@@ -614,10 +614,10 @@
 			</div>
 			<!-- Catalog Topbar - end -->
 			<div class="prod-items section-items">
-
+				{foreach $ds_laptop as $ds}
 				<div class="prod-i">
 					<div class="prod-i-top">
-						<a href="product.html" class="prod-i-img"><!-- NO SPACE --><img src="http://placehold.it/300x311" alt="Adipisci aperiam commodi"><!-- NO SPACE --></a>
+						<a href="product.html" class="prod-i-img"><!-- NO SPACE --><img src="public/images/san_pham/{}" alt="Adipisci aperiam commodi"><!-- NO SPACE --></a>
 						<p class="prod-i-info">
 							<a href="#" class="prod-i-favorites"><span>Wishlist</span><i class="fa fa-heart"></i></a>
 							<a href="#" class="qview-btn prod-i-qview"><span>Quick View</span><i class="fa fa-search"></i></a>
@@ -662,120 +662,7 @@
 						</ul>
 					</div>
 				</div>
-				<div class="prod-i">
-					<div class="prod-i-top">
-						<a href="product.html" class="prod-i-img"><!-- NO SPACE --><img src="http://placehold.it/300x366" alt="Nulla numquam obcaecati"><!-- NO SPACE --></a>
-						<p class="prod-i-info">
-							<a href="#" class="prod-i-favorites"><span>Wishlist</span><i class="fa fa-heart"></i></a>
-							<a href="#" class="qview-btn prod-i-qview"><span>Quick View</span><i class="fa fa-search"></i></a>
-							<a class="prod-i-compare" href="#"><span>Compare</span><i class="fa fa-bar-chart"></i></a>
-						</p>
-						<a href="#" class="prod-i-buy">Add to cart</a>
-						<p class="prod-i-properties-label"><i class="fa fa-info"></i></p>
-
-						<div class="prod-i-properties">
-							<dl>
-								<dt>Material</dt>
-								<dd>Cotton,Polyester<br></dd>
-								<dt>Sleeve Length</dt>
-								<dd>Short<br></dd>
-								<dt>Tops Type</dt>
-								<dd>Tees<br></dd>
-								<dt>Pattern Type</dt>
-								<dd>Solid<br></dd>
-								<dt>Style</dt>
-								<dd>Casual<br></dd>
-								<dt>Hooded</dt>
-								<dd>No<br></dd>
-								<dt>Collar</dt>
-								<dd>V-Neck<br></dd>
-								<dt>Sleeve Style</dt>
-								<dd>General<br></dd>
-							</dl>
-						</div>
-					</div>
-					<h3>
-						<a href="product.html">Nulla numquam obcaecati</a>
-					</h3>
-					<p class="prod-i-price">
-						<b>$48</b>
-					</p>
-				</div>
-				<div class="prod-i">
-					<div class="prod-i-top">
-						<a href="product.html" class="prod-i-img"><!-- NO SPACE --><img src="http://placehold.it/370x300" alt="Dignissimos eaque earum"><!-- NO SPACE --></a>
-						<p class="prod-i-info">
-							<a href="#" class="prod-i-favorites"><span>Wishlist</span><i class="fa fa-heart"></i></a>
-							<a href="#" class="qview-btn prod-i-qview"><span>Quick View</span><i class="fa fa-search"></i></a>
-							<a class="prod-i-compare" href="#"><span>Compare</span><i class="fa fa-bar-chart"></i></a>
-						</p>
-						<a href="#" class="prod-i-buy">Add to cart</a>
-						<p class="prod-i-properties-label"><i class="fa fa-info"></i></p>
-
-						<div class="prod-i-properties">
-							<dl>
-								<dt>Gender</dt>
-								<dd>Unisex<br></dd>
-								<dt>Material</dt>
-								<dd>Wool, Polyester<br></dd>
-								<dt>Style</dt>
-								<dd>Casual<br></dd>
-								<dt>Pattern Type</dt>
-								<dd>Solid<br></dd>
-								<dt>Hats size</dt>
-								<dd>Oversize<br></dd>
-							</dl>
-						</div>
-					</div>
-					<h3>
-						<a href="product.html">Dignissimos eaque earum</a>
-					</h3>
-					<p class="prod-i-price">
-						<b>$37</b>
-					</p>
-				</div>
-				<div class="prod-i">
-					<div class="prod-i-top">
-						<a href="product.html" class="prod-i-img"><!-- NO SPACE --><img src="http://placehold.it/300x345" alt="Porro quae quasi"><!-- NO SPACE --></a>
-						<p class="prod-i-info">
-							<a href="#" class="prod-i-favorites"><span>Wishlist</span><i class="fa fa-heart"></i></a>
-							<a href="#" class="qview-btn prod-i-qview"><span>Quick View</span><i class="fa fa-search"></i></a>
-							<a class="prod-i-compare" href="#"><span>Compare</span><i class="fa fa-bar-chart"></i></a>
-						</p>
-						<a href="#" class="prod-i-buy">Add to cart</a>
-						<p class="prod-i-properties-label"><i class="fa fa-info"></i></p>
-
-						<div class="prod-i-properties">
-							<dl>
-								<dt>Sleeve Length</dt>
-								<dd>Full<br></dd>
-								<dt>Sleeve Style</dt>
-								<dd>Long sleeve<br></dd>
-								<dt>Collar</dt>
-								<dd>V-Neck<br></dd>
-								<dt>Fabric Type</dt>
-								<dd>Broadcloth<br></dd>
-								<dt>Material</dt>
-								<dd>Cotton,Spandex<br></dd>
-								<dt>Hooded</dt>
-								<dd>No<br></dd>
-								<dt>Pattern Type</dt>
-								<dd>Solid<br></dd>
-								<dt>Gender</dt>
-								<dd>Men<br></dd>
-								<dt>Style</dt>
-								<dd>Fashion<br></dd>
-							</dl>
-						</div>
-					</div>
-					<h3>
-						<a href="product.html">Porro quae quasi</a>
-					</h3>
-					<p class="prod-i-price">
-						<b>$85</b>
-						<del>$110</del>
-					</p>
-				</div>
+				{/foreach}
 				<div class="prod-i">
 					<div class="prod-i-top">
 						<a href="product.html" class="prod-i-img"><!-- NO SPACE --><img src="http://placehold.it/378x300" alt="Sunt temporibus velit"><!-- NO SPACE --></a>

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2017-11-20 18:52:21
+<?php /* Smarty version Smarty-3.1.18, created on 2017-11-21 16:18:34
          compiled from "smarty\templates\dien_thoai\layout.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:110615a131df910b219-36262057%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,25 +7,25 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'f844e587f457b2323078a2638526841b1b80a395' => 
     array (
       0 => 'smarty\\templates\\dien_thoai\\layout.tpl',
-      1 => 1511202876,
+      1 => 1511270361,
       2 => 'file',
     ),
     'e0734278ae9da0e34a12899ed984b77d116c8cf5' => 
     array (
       0 => 'smarty\\templates\\layout.tpl',
-      1 => 1511202891,
+      1 => 1511270362,
       2 => 'file',
     ),
     'd83077e51f0c7f8703094d8c498c56a0adc8e871' => 
     array (
       0 => 'smarty\\templates\\slider.tpl',
-      1 => 1511200692,
+      1 => 1511270362,
       2 => 'file',
     ),
     '6652bf75f43eb8665356b88e8a0e2401680ee1b9' => 
     array (
       0 => 'smarty\\templates\\header.tpl',
-      1 => 1511203936,
+      1 => 1511281111,
       2 => 'file',
     ),
   ),
@@ -42,23 +42,23 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <?php /*  Call merged included template "header.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '110615a131df910b219-36262057');
-content_5a132465a63de3_15405999($_smarty_tpl);
+content_5a1451da81d1d7_97483621($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "header.tpl" */?>
 <?php echo $_smarty_tpl->getSubTemplate ("content.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
 <?php echo $_smarty_tpl->getSubTemplate ("footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 <?php }} ?>
-<?php /* Smarty version Smarty-3.1.18, created on 2017-11-20 18:52:21
+<?php /* Smarty version Smarty-3.1.18, created on 2017-11-21 16:18:34
          compiled from "smarty\templates\header.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5a132465a63de3_15405999')) {function content_5a132465a63de3_15405999($_smarty_tpl) {?><header class="header">
+<?php if ($_valid && !is_callable('content_5a1451da81d1d7_97483621')) {function content_5a1451da81d1d7_97483621($_smarty_tpl) {?><header class="header">
 
     <!-- Topbar - start -->
     <div class="header_top">
         <div class="container">
             <ul class="contactinfo nav nav-pills">
                 <li>
-                    <i class='fa fa-phone'></i> +7 777 123 1575
+                    <i class='fa fa-phone'></i> (028) 38 399 000
                 </li>
                 <li>
                     <i class="fa fa-envelope"></i> admin@real-web.pro
@@ -625,7 +625,7 @@ $_smarty_tpl = array_pop($_tpl_stack);
                         </ul>
                     </li>
                     <li>
-                        <a href="tin+tuc.php">
+                        <a href="tin_tuc.php">
                             Tin Tức
                         </a>
                     </li>
@@ -660,9 +660,9 @@ $_smarty_tpl = array_pop($_tpl_stack);
 <main>
     <section class="container">
         <?php }} ?>
-<?php /* Smarty version Smarty-3.1.18, created on 2017-11-20 18:52:21
+<?php /* Smarty version Smarty-3.1.18, created on 2017-11-21 16:18:34
          compiled from "smarty\templates\slider.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5a132465a79fe4_88178962')) {function content_5a132465a79fe4_88178962($_smarty_tpl) {?><div class="fr-slider-wrap">
+<?php if ($_valid && !is_callable('content_5a1451da81d1d0_51260971')) {function content_5a1451da81d1d0_51260971($_smarty_tpl) {?><div class="fr-slider-wrap">
             <div class="fr-slider">
                 <ul class="slides">
                     <li>

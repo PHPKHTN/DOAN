@@ -6,12 +6,15 @@
 	class M_laptop extends database
 	{
 		
-		public function Doc_ds_laptop()
+		public function Doc_laptop($vt=-1, $limit=-1)
 		{
-			$sql="SELECT * FROM san_pham";
-			$this->setQuery($sql);
-			$asd=$this->loadAllRows();
-			print_r(count($asd));	
+            $sql="SELECT s.*, h.* FROM san_pham s, hinh_san_pham h, loai_san_pham l WHERE s.ma_san_pham = h.ma_san_pham AND s.ma_the_loai = l.ma_the_loai AND l.ma_the_loai = 2";
+            if($vt>=0 && $limit>0)
+            {
+                $sql .= " limit $vt, $limit";
+            }
+            $this->setQuery($sql);
+			return $this->loadAllRows();
 		}
 	}
 ?>

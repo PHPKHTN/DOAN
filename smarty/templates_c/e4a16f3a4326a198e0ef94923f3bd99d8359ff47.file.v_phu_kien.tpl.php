@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2017-11-20 19:17:35
+<?php /* Smarty version Smarty-3.1.18, created on 2017-11-21 15:56:11
          compiled from "views\phu_kien\v_phu_kien.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:65825a132a4fb42a74-80576262%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e4a16f3a4326a198e0ef94923f3bd99d8359ff47' => 
     array (
       0 => 'views\\phu_kien\\v_phu_kien.tpl',
-      1 => 1511204451,
+      1 => 1511270364,
       2 => 'file',
     ),
   ),
@@ -15,9 +15,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.18',
   'unifunc' => 'content_5a132a4fb55d12_94088991',
+  'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5a132a4fb55d12_94088991')) {function content_5a132a4fb55d12_94088991($_smarty_tpl) {?><!-- Main Content - start -->
 <main>

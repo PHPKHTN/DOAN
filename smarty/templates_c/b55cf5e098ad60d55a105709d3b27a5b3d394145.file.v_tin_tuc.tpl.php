@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2017-11-20 19:19:16
+<?php /* Smarty version Smarty-3.1.18, created on 2017-11-21 15:56:13
          compiled from "views\tin_tuc\v_tin_tuc.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:301425a132ab45938e8-49548067%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'b55cf5e098ad60d55a105709d3b27a5b3d394145' => 
     array (
       0 => 'views\\tin_tuc\\v_tin_tuc.tpl',
-      1 => 1511205555,
+      1 => 1511270365,
       2 => 'file',
     ),
   ),
@@ -15,9 +15,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.18',
   'unifunc' => 'content_5a132ab45df3d5_05783022',
+  'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5a132ab45df3d5_05783022')) {function content_5a132ab45df3d5_05783022($_smarty_tpl) {?><!-- Main Content - start -->
 <main>

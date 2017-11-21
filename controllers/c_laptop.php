@@ -5,7 +5,7 @@ class C_laptop
 	{
 		include("models/m_laptop.php");
 		$m_laptop = new M_laptop();
-		$ds_laptop = $m_laptop->Doc_ds_laptop();
+		$ds_laptop = $m_laptop->Doc_laptop();
 
 		//views
 		include("controllers/Smarty_shop_mobile.php");
@@ -13,6 +13,7 @@ class C_laptop
 		$smarty->assign("title","Laptop");
 		$view="views/laptop/v_laptop.tpl";
 		$smarty->assign("view",$view);
+		$smarty->assign("ds_laptop", $ds_laptop);
 		$smarty->display("laptop/layout.tpl");
 	}
 }
