@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 17:07:41
+<?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 17:12:17
          compiled from "views\dien_thoai\v_dien_thoai.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:122745a15ae0bb1e3d8-09785819%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '9f1b7b9079055453df256e4828aa946732a7e961' => 
     array (
       0 => 'views\\dien_thoai\\v_dien_thoai.tpl',
-      1 => 1511370458,
+      1 => 1511370625,
       2 => 'file',
     ),
   ),
@@ -162,7 +162,8 @@ $_smarty_tpl->tpl_vars['ds']->_loop = true;
 			<div class="prod-wrap">
 				<a href="product.html">
 					<h1 class="main-ttl">
-						<span>Reprehenderit adipisci</span>
+						<span><?php echo $_smarty_tpl->tpl_vars['ds']->value->ten_san_pham;?>
+</span>
 					</h1>
 				</a>
 				<div class="prod-slider-wrap">
@@ -170,37 +171,8 @@ $_smarty_tpl->tpl_vars['ds']->_loop = true;
 						<ul class="prod-slider-car">
 							<li>
 								<a data-fancybox-group="popup-product" class="fancy-img" href="http://placehold.it/500x525">
-									<img src="http://placehold.it/500x525" alt="">
-								</a>
-							</li>
-							<li>
-								<a data-fancybox-group="popup-product" class="fancy-img" href="http://placehold.it/500x591">
-									<img src="http://placehold.it/500x591" alt="">
-								</a>
-							</li>
-							<li>
-								<a data-fancybox-group="popup-product" class="fancy-img" href="http://placehold.it/500x525">
-									<img src="http://placehold.it/500x525" alt="">
-								</a>
-							</li>
-							<li>
-								<a data-fancybox-group="popup-product" class="fancy-img" href="http://placehold.it/500x722">
-									<img src="http://placehold.it/500x722" alt="">
-								</a>
-							</li>
-							<li>
-								<a data-fancybox-group="popup-product" class="fancy-img" href="http://placehold.it/500x722">
-									<img src="http://placehold.it/500x722" alt="">
-								</a>
-							</li>
-							<li>
-								<a data-fancybox-group="popup-product" class="fancy-img" href="http://placehold.it/500x722">
-									<img src="http://placehold.it/500x722" alt="">
-								</a>
-							</li>
-							<li>
-								<a data-fancybox-group="popup-product" class="fancy-img" href="http://placehold.it/500x722">
-									<img src="http://placehold.it/500x722" alt="">
+									<img src="public/images/san_pham/<?php echo $_smarty_tpl->tpl_vars['ds']->value->hinh;?>
+" alt="">
 								</a>
 							</li>
 						</ul>

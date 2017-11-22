@@ -108,71 +108,20 @@
                             Trang chủ
                         </a>
                     </li>
-                    <li class="menu-item-has-children">
+                    <li>
                         <a href="dien_thoai.php">
-                            Điện thoại <i class="fa fa-angle-down"></i>
+                            Điện thoại
                         </a>
-                        <ul class="sub-menu">
-                            <li>
-                                <a href="catalog-list.html">
-                                    Catalog List - Style 1
-                                </a>
-                            </li>
-                            <li>
-                                <a href="catalog-list-2.html">
-                                    Catalog List - Style 2
-                                </a>
-                            </li>
-                            <li>
-                                <a href="catalog-gallery.html">
-                                    Catalog Gallery - Style 1
-                                </a>
-                            </li>
-                            <li>
-                                <a href="catalog-gallery-2.html">
-                                    Catalog Gallery - Style 2
-                                </a>
-                            </li>
-                            <li>
-                                <a href="catalog-table.html">
-                                    Catalog Table
-                                </a>
-                            </li>
-                        </ul>
                     </li>
-                    <li class="menu-item-has-children">
+                    <li>
                         <a href="tablet.php">
-                            Tablet <i class="fa fa-angle-down"></i>
+                            Tablet
                         </a>
-                        <ul class="sub-menu">
-                            <li>
-                                <a href="product.html">
-                                    Product - Style 1 (Slider)
-                                </a>
-                            </li>
-                            <li>
-                                <a href="product-2.html">
-                                    Product - Style 2 (Scroll)
-                                </a>
-                            </li>
-                        </ul>
                     </li>
-                    <li class="menu-item-has-children">
+                    <li>
                         <a href="phu_kien.php">
-                            Phụ Kiện <i class="fa fa-angle-down"></i>
+                            Phụ Kiện
                         </a>
-                        <ul class="sub-menu">
-                            <li>
-                                <a href="product.html">
-                                    Product - Style 1 (Slider)
-                                </a>
-                            </li>
-                            <li>
-                                <a href="product-2.html">
-                                    Product - Style 2 (Scroll)
-                                </a>
-                            </li>
-                        </ul>
                     </li>
                     <li>
                         <a href="tin_tuc.php">
