@@ -521,23 +521,6 @@
                         </ul>
                     </li>
                     <li class="menu-item-has-children">
-                        <a href="laptop.php">
-                            Laptop <i class="fa fa-angle-down"></i>
-                        </a>
-                        <ul class="sub-menu">
-                            <li>
-                                <a href="product.html">
-                                    Product - Style 1 (Slider)
-                                </a>
-                            </li>
-                            <li>
-                                <a href="product-2.html">
-                                    Product - Style 2 (Scroll)
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children">
                         <a href="tablet.php">
                             Tablet <i class="fa fa-angle-down"></i>
                         </a>

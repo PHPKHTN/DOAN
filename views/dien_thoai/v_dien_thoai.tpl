@@ -653,7 +653,7 @@
 						<a href="product.html">{$ds->ten_san_pham}</a>
 					</h3>
 					<p class="prod-i-price">
-						<b>{number_format($ds->don_gia)}</b>
+						<b>{number_format($ds->don_gia,0,",",".")}đ</b>
 					</p>
 					<div class="prod-i-skuwrapcolor">
 						<ul class="prod-i-skucolor">
@@ -667,7 +667,7 @@
 
 			<!-- Pagination - start -->
 			<ul class="pagi">
-				{$ds_phan_trang}
+				<li><span>{$ds_phan_trang}</span></li>
 			</ul>
 			<!-- Pagination - end -->
 		</div>

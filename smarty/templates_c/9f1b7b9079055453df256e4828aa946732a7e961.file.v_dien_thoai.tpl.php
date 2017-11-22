@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2017-11-21 17:17:38
+<?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 16:23:24
          compiled from "views\dien_thoai\v_dien_thoai.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:153065a131df91efd69-66720862%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '9f1b7b9079055453df256e4828aa946732a7e961' => 
     array (
       0 => 'views\\dien_thoai\\v_dien_thoai.tpl',
-      1 => 1511284654,
+      1 => 1511367730,
       2 => 'file',
     ),
   ),
@@ -686,8 +686,8 @@ $_smarty_tpl->tpl_vars['ds']->_loop = true;
 </a>
 					</h3>
 					<p class="prod-i-price">
-						<b><?php echo number_format($_smarty_tpl->tpl_vars['ds']->value->don_gia);?>
-</b>
+						<b><?php echo number_format($_smarty_tpl->tpl_vars['ds']->value->don_gia,0,",",".");?>
+đ</b>
 					</p>
 					<div class="prod-i-skuwrapcolor">
 						<ul class="prod-i-skucolor">
@@ -701,8 +701,8 @@ $_smarty_tpl->tpl_vars['ds']->_loop = true;
 
 			<!-- Pagination - start -->
 			<ul class="pagi">
-				<?php echo $_smarty_tpl->tpl_vars['ds_phan_trang']->value;?>
-
+				<li><span><?php echo $_smarty_tpl->tpl_vars['ds_phan_trang']->value;?>
+</span></li>
 			</ul>
 			<!-- Pagination - end -->
 		</div>

@@ -9,7 +9,7 @@ class C_dien_thoai
 
         include "Pager.php";
         $p = new pager();
-        $limit = 8;
+        $limit = 9;
         $count = count($ds_dien_thoai);
         $pages = $p->findPages($count, $limit);
         $vt = $p->findStart($limit);

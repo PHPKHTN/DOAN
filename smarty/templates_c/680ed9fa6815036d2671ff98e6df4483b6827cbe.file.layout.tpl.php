@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2017-11-21 15:56:11
+<?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 16:20:59
          compiled from "smarty\templates\phu_kien\layout.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:227625a132a4f9856f2-40149682%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -25,7 +25,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '6652bf75f43eb8665356b88e8a0e2401680ee1b9' => 
     array (
       0 => 'smarty\\templates\\header.tpl',
-      1 => 1511270362,
+      1 => 1511367472,
       2 => 'file',
     ),
   ),
@@ -42,23 +42,23 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <?php /*  Call merged included template "header.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '227625a132a4f9856f2-40149682');
-content_5a144c9b13c0c1_74854382($_smarty_tpl);
+content_5a15a3eb33b100_70094867($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "header.tpl" */?>
 <?php echo $_smarty_tpl->getSubTemplate ("content.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
 <?php echo $_smarty_tpl->getSubTemplate ("footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 <?php }} ?>
-<?php /* Smarty version Smarty-3.1.18, created on 2017-11-21 15:56:11
+<?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 16:20:59
          compiled from "smarty\templates\header.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5a144c9b13c0c1_74854382')) {function content_5a144c9b13c0c1_74854382($_smarty_tpl) {?><header class="header">
+<?php if ($_valid && !is_callable('content_5a15a3eb33b100_70094867')) {function content_5a15a3eb33b100_70094867($_smarty_tpl) {?><header class="header">
 
     <!-- Topbar - start -->
     <div class="header_top">
         <div class="container">
             <ul class="contactinfo nav nav-pills">
                 <li>
-                    <i class='fa fa-phone'></i> +7 777 123 1575
+                    <i class='fa fa-phone'></i> (028) 38 399 000
                 </li>
                 <li>
                     <i class="fa fa-envelope"></i> admin@real-web.pro
@@ -574,23 +574,6 @@ $_smarty_tpl = array_pop($_tpl_stack);
                         </ul>
                     </li>
                     <li class="menu-item-has-children">
-                        <a href="laptop.php">
-                            Laptop <i class="fa fa-angle-down"></i>
-                        </a>
-                        <ul class="sub-menu">
-                            <li>
-                                <a href="product.html">
-                                    Product - Style 1 (Slider)
-                                </a>
-                            </li>
-                            <li>
-                                <a href="product-2.html">
-                                    Product - Style 2 (Scroll)
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children">
                         <a href="tablet.php">
                             Tablet <i class="fa fa-angle-down"></i>
                         </a>
@@ -660,9 +643,9 @@ $_smarty_tpl = array_pop($_tpl_stack);
 <main>
     <section class="container">
         <?php }} ?>
-<?php /* Smarty version Smarty-3.1.18, created on 2017-11-21 15:56:11
+<?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 16:20:59
          compiled from "smarty\templates\slider.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5a144c9b14bad0_94316637')) {function content_5a144c9b14bad0_94316637($_smarty_tpl) {?><div class="fr-slider-wrap">
+<?php if ($_valid && !is_callable('content_5a15a3eb346c89_36333139')) {function content_5a15a3eb346c89_36333139($_smarty_tpl) {?><div class="fr-slider-wrap">
             <div class="fr-slider">
                 <ul class="slides">
                     <li>
