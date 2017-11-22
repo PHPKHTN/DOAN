@@ -1,16 +1,46 @@
-<!-- Main Content - start -->
+<?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 17:07:41
+         compiled from "views\dien_thoai\v_dien_thoai.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:122745a15ae0bb1e3d8-09785819%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '9f1b7b9079055453df256e4828aa946732a7e961' => 
+    array (
+      0 => 'views\\dien_thoai\\v_dien_thoai.tpl',
+      1 => 1511370458,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '122745a15ae0bb1e3d8-09785819',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.18',
+  'unifunc' => 'content_5a15ae0bb6af22_71763535',
+  'variables' => 
+  array (
+    'title' => 0,
+    'ds_dien_thoai' => 0,
+    'ds' => 0,
+    'ds_phan_trang' => 0,
+  ),
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_5a15ae0bb6af22_71763535')) {function content_5a15ae0bb6af22_71763535($_smarty_tpl) {?><!-- Main Content - start -->
 <main>
 	<section class="container">
 
 
 		
-		<h1 class="main-ttl"><span>{$title}</span></h1>
+		<h1 class="main-ttl"><span><?php echo $_smarty_tpl->tpl_vars['title']->value;?>
+</span></h1>
 		<!-- Catalog Sidebar - start -->
 		<div class="section-sb">
 
 			<!-- Catalog Categories - start -->
 			<div class="section-sb-current">
-				<h3><a href="catalog-list.html">{$title}<span id="section-sb-toggle" class="section-sb-toggle"><span class="section-sb-ico"></span></span></a></h3>
+				<h3><a href="catalog-list.html"><?php echo $_smarty_tpl->tpl_vars['title']->value;?>
+<span id="section-sb-toggle" class="section-sb-toggle"><span class="section-sb-ico"></span></span></a></h3>
 				<ul class="section-sb-list" id="section-sb-list">
 					<li class="categ-1 has_child">
 						<a href="catalog-list.html">
@@ -81,10 +111,15 @@
 
 			
 			<div class="prod-items section-items">
-				{foreach $ds_dien_thoai as $ds}
+				<?php  $_smarty_tpl->tpl_vars['ds'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['ds']->_loop = false;
+ $_from = $_smarty_tpl->tpl_vars['ds_dien_thoai']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+foreach ($_from as $_smarty_tpl->tpl_vars['ds']->key => $_smarty_tpl->tpl_vars['ds']->value) {
+$_smarty_tpl->tpl_vars['ds']->_loop = true;
+?>
 				<div class="prod-i">
 					<div class="prod-i-top">
-						<a href="product.html" class="prod-i-img"><!-- NO SPACE --><img src="public/images/san_pham/{$ds->hinh}" alt="Adipisci aperiam commodi"><!-- NO SPACE --></a>
+						<a href="product.html" class="prod-i-img"><!-- NO SPACE --><img src="public/images/san_pham/<?php echo $_smarty_tpl->tpl_vars['ds']->value->hinh;?>
+" alt="Adipisci aperiam commodi"><!-- NO SPACE --></a>
 						<p class="prod-i-info">
 							<a href="#" class="prod-i-favorites"><span>Wishlist</span><i class="fa fa-heart"></i></a>
 							<a href="#" class="qview-btn prod-i-qview"><span>Quick View</span><i class="fa fa-search"></i></a>
@@ -96,23 +131,27 @@
 						<div class="prod-i-properties">
 							<dl>
 								<dt>Mô tả</dt>
-								<dd>{$ds->mo_ta}<br></dd>
+								<dd><?php echo $_smarty_tpl->tpl_vars['ds']->value->mo_ta;?>
+<br></dd>
 							</dl>
 						</div>
 					</div>
 					<h3>
-						<a href="product.html">{$ds->ten_san_pham}</a>
+						<a href="product.html"><?php echo $_smarty_tpl->tpl_vars['ds']->value->ten_san_pham;?>
+</a>
 					</h3>
 					<p class="prod-i-price">
-						<b>{number_format($ds->don_gia,0,",",".")}đ</b>
+						<b><?php echo number_format($_smarty_tpl->tpl_vars['ds']->value->don_gia,0,",",".");?>
+đ</b>
 					</p>
 				</div>
-                {/foreach}
+                <?php } ?>
 			</div>
 
 			<!-- Pagination - start -->
 			<ul class="pagi">
-				<li><span>{$ds_phan_trang}</span></li>
+				<li><span><?php echo $_smarty_tpl->tpl_vars['ds_phan_trang']->value;?>
+</span></li>
 			</ul>
 			<!-- Pagination - end -->
 		</div>
@@ -288,4 +327,4 @@
 		<!-- Quick View Product - end -->
 	</section>
 </main>
-<!-- Main Content - end -->
+<!-- Main Content - end --><?php }} ?>
