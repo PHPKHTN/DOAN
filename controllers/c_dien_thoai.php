@@ -7,7 +7,7 @@ class C_dien_thoai
 		$m_dien_thoai = new M_dien_thoai();
 		$ds_dien_thoai = $m_dien_thoai->Doc_dien_thoai();
 
-        include "Pager.php";
+        include("Pager.php");
         $p = new pager();
         $limit = 9;
         $count = count($ds_dien_thoai);
