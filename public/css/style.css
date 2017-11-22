@@ -347,11 +347,11 @@ body {
 
 
 /*----------------------------------
-3 - Topmenu
-----------------------------------*/
+3 - 
+---------------------------------Topmenu-*/
 .topmenu {
 	position: relative;
-	padding: 0 41px 0 203px;
+	padding: 0 41px 0 0;
 	font-size: 14px;
 }
 .topmenu:after {
