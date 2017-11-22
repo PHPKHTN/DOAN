@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2017-11-21 17:27:42
+<?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 16:23:31
          compiled from "views\laptop\v_laptop.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:11455a1326550a0641-54120587%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'c6f97a3fa3fadc5d962deb6df65d614dd1d2dc3a' => 
     array (
       0 => 'views\\laptop\\v_laptop.tpl',
-      1 => 1511285260,
+      1 => 1511367738,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'variables' => 
   array (
     'ds_laptop' => 0,
-    'ds' => 0,
   ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
@@ -647,8 +646,7 @@ $_smarty_tpl->tpl_vars['ds']->_loop = true;
 ?>
 				<div class="prod-i">
 					<div class="prod-i-top">
-						<a href="product.html" class="prod-i-img"><!-- NO SPACE --><img src="public/images/san_pham/<?php echo $_smarty_tpl->tpl_vars['ds']->value->hinh;?>
-" alt="Adipisci aperiam commodi"><!-- NO SPACE --></a>
+						<a href="product.html" class="prod-i-img"><!-- NO SPACE --><img src="public/images/san_pham/{}" alt="Adipisci aperiam commodi"><!-- NO SPACE --></a>
 						<p class="prod-i-info">
 							<a href="#" class="prod-i-favorites"><span>Wishlist</span><i class="fa fa-heart"></i></a>
 							<a href="#" class="qview-btn prod-i-qview"><span>Quick View</span><i class="fa fa-search"></i></a>
@@ -694,6 +692,348 @@ $_smarty_tpl->tpl_vars['ds']->_loop = true;
 					</div>
 				</div>
 				<?php } ?>
+				<div class="prod-i">
+					<div class="prod-i-top">
+						<a href="product.html" class="prod-i-img"><!-- NO SPACE --><img src="http://placehold.it/378x300" alt="Sunt temporibus velit"><!-- NO SPACE --></a>
+						<p class="prod-i-info">
+							<a href="#" class="prod-i-favorites"><span>Wishlist</span><i class="fa fa-heart"></i></a>
+							<a href="#" class="qview-btn prod-i-qview"><span>Quick View</span><i class="fa fa-search"></i></a>
+							<a class="prod-i-compare" href="#"><span>Compare</span><i class="fa fa-bar-chart"></i></a>
+						</p>
+						<a href="#" class="prod-i-buy">Add to cart</a>
+						<p class="prod-i-properties-label"><i class="fa fa-info"></i></p>
+
+						<div class="prod-i-properties">
+							<dl>
+								<dt>Gender</dt>
+								<dd>Men<br></dd>
+								<dt>Shaft Material</dt>
+								<dd>Flock<br></dd>
+								<dt>Lining Material</dt>
+								<dd>Plush<br></dd>
+								<dt>Insole Material</dt>
+								<dd>Rubber<br></dd>
+								<dt>Season</dt>
+								<dd>Winter<br></dd>
+								<dt>With Platforms</dt>
+								<dd>No<br></dd>
+								<dt>Pattern Type</dt>
+								<dd>Solid<br></dd>
+								<dt>Boot Height</dt>
+								<dd>Ankle<br></dd>
+								<dt>Closure Type</dt>
+								<dd>Lace-Up<br></dd>
+							</dl>
+						</div>
+					</div>
+					<h3>
+						<a href="product.html">Sunt temporibus velit</a>
+					</h3>
+					<p class="prod-i-price">
+						<b>$115</b>
+					</p>
+				</div>
+				<div class="prod-i">
+					<div class="prod-i-top">
+						<a href="product.html" class="prod-i-img"><!-- NO SPACE --><img src="http://placehold.it/300x394" alt="Harum illum incidunt"><!-- NO SPACE --></a>
+						<p class="prod-i-info">
+							<a href="#" class="prod-i-favorites"><span>Wishlist</span><i class="fa fa-heart"></i></a>
+							<a href="#" class="qview-btn prod-i-qview"><span>Quick View</span><i class="fa fa-search"></i></a>
+							<a class="prod-i-compare" href="#"><span>Compare</span><i class="fa fa-bar-chart"></i></a>
+						</p>
+						<a href="#" class="prod-i-buy">Add to cart</a>
+						<p class="prod-i-properties-label"><i class="fa fa-info"></i></p>
+
+						<div class="prod-i-properties">
+							<dl>
+								<dt>Outerwear Type</dt>
+								<dd>Jackets<br></dd>
+								<dt>Sleeve Style</dt>
+								<dd>Regular<br></dd>
+								<dt>Pattern Type</dt>
+								<dd>Solid<br></dd>
+								<dt>Material</dt>
+								<dd>Polyester,Cotton<br></dd>
+								<dt>Hooded</dt>
+								<dd>Yes<br></dd>
+								<dt>Style</dt>
+								<dd>Casual<br></dd>
+								<dt>Collar</dt>
+								<dd>Turn-down Collar<br></dd>
+								<dt>Decoration</dt>
+								<dd>Pockets<br></dd>
+								<dt>Gender</dt>
+								<dd>Men<br></dd>
+								<dt>Closure Type</dt>
+								<dd>Zipper<br></dd>
+							</dl>
+						</div>
+					</div>
+					<h3>
+						<a href="product.html">Harum illum incidunt</a>
+					</h3>
+					<p class="prod-i-price">
+						<b>$130</b>
+					</p>
+				</div>
+				<div class="prod-i">
+					<div class="prod-i-top">
+						<a href="product.html" class="prod-i-img"><!-- NO SPACE --><img src="http://placehold.it/300x303" alt="Reprehenderit rerum"><!-- NO SPACE --></a>
+						<p class="prod-i-info">
+							<a href="#" class="prod-i-favorites"><span>Wishlist</span><i class="fa fa-heart"></i></a>
+							<a href="#" class="qview-btn prod-i-qview"><span>Quick View</span><i class="fa fa-search"></i></a>
+							<a class="prod-i-compare" href="#"><span>Compare</span><i class="fa fa-bar-chart"></i></a>
+						</p>
+						<a href="#" class="prod-i-buy">Add to cart</a>
+						<p class="prod-i-properties-label"><i class="fa fa-info"></i></p>
+
+						<div class="prod-i-properties">
+							<dl>
+								<dt>Outerwear Type</dt>
+								<dd>Jackets<br></dd>
+								<dt>Sleeve Style</dt>
+								<dd>Regular<br></dd>
+								<dt>Pattern Type</dt>
+								<dd>Solid<br></dd>
+								<dt>Material</dt>
+								<dd>Polyester,Cotton<br></dd>
+								<dt>Hooded</dt>
+								<dd>Yes<br></dd>
+								<dt>Style</dt>
+								<dd>Casual<br></dd>
+								<dt>Collar</dt>
+								<dd>Turn-down Collar<br></dd>
+								<dt>Decoration</dt>
+								<dd>Pockets<br></dd>
+								<dt>Gender</dt>
+								<dd>Boys<br></dd>
+								<dt>Closure Type</dt>
+								<dd>Zipper<br></dd>
+							</dl>
+						</div>
+
+						<div class="prod-sticker">
+							<p class="prod-sticker-3">-20%</p>
+						</div>
+					</div>
+					<h3>
+						<a href="product.html">Reprehenderit rerum</a>
+					</h3>
+					<p class="prod-i-price">
+						<b>$210</b>
+						<del>$240</del>
+					</p>
+				</div>
+				<div class="prod-i">
+					<div class="prod-i-top">
+						<a href="product.html" class="prod-i-img"><!-- NO SPACE --><img src="http://placehold.it/300x588" alt="Quae quasi adipisci alias"><!-- NO SPACE --></a>
+						<p class="prod-i-info">
+							<a href="#" class="prod-i-favorites"><span>Wishlist</span><i class="fa fa-heart"></i></a>
+							<a href="#" class="qview-btn prod-i-qview"><span>Quick View</span><i class="fa fa-search"></i></a>
+							<a class="prod-i-compare" href="#"><span>Compare</span><i class="fa fa-bar-chart"></i></a>
+						</p>
+						<a href="#" class="prod-i-buy">Add to cart</a>
+						<p class="prod-i-properties-label"><i class="fa fa-info"></i></p>
+
+						<div class="prod-i-properties">
+							<dl>
+								<dt>Gender</dt>
+								<dd>Women<br></dd>
+								<dt>Pattern Type</dt>
+								<dd>Solid<br></dd>
+								<dt>Color Style</dt>
+								<dd>Natural Color<br></dd>
+								<dt>Material</dt>
+								<dd>Polyester<br></dd>
+								<dt>Length</dt>
+								<dd>LongHooded<br></dd>
+								<dt>Fabric Type</dt>
+								<dd>Woven<br></dd>
+							</dl>
+						</div>
+					</div>
+					<h3>
+						<a href="product.html">Quae quasi adipisci alias</a>
+					</h3>
+					<p class="prod-i-price">
+						<b>$85</b>
+					</p>
+				</div>
+				<div class="prod-i">
+					<div class="prod-i-top">
+						<a href="product.html" class="prod-i-img"><!-- NO SPACE --><img src="http://placehold.it/300x416" alt="Maxime molestias necessitatibus nobis"><!-- NO SPACE --></a>
+						<p class="prod-i-info">
+							<a href="#" class="prod-i-favorites"><span>Wishlist</span><i class="fa fa-heart"></i></a>
+							<a href="#" class="qview-btn prod-i-qview"><span>Quick View</span><i class="fa fa-search"></i></a>
+							<a class="prod-i-compare" href="#"><span>Compare</span><i class="fa fa-bar-chart"></i></a>
+						</p>
+						<a href="#" class="prod-i-buy">Add to cart</a>
+						<p class="prod-i-properties-label"><i class="fa fa-info"></i></p>
+
+						<div class="prod-i-properties">
+							<dl>
+								<dt>Outerwear Type</dt>
+								<dd>Jackets<br></dd>
+								<dt>Sleeve Style</dt>
+								<dd>Regular<br></dd>
+								<dt>Pattern Type</dt>
+								<dd>Solid<br></dd>
+								<dt>Material</dt>
+								<dd>Polyester,Cotton<br></dd>
+								<dt>Hooded</dt>
+								<dd>Yes<br></dd>
+								<dt>Style</dt>
+								<dd>Casual<br></dd>
+								<dt>Collar</dt>
+								<dd>Turn-down Collar<br></dd>
+								<dt>Decoration</dt>
+								<dd>Pockets<br></dd>
+								<dt>Gender</dt>
+								<dd>Men<br></dd>
+								<dt>Closure Type</dt>
+								<dd>Zipper<br></dd>
+							</dl>
+						</div>
+					</div>
+					<h3>
+						<a href="product.html">Maxime molestias necessitatibus nobis</a>
+					</h3>
+					<p class="prod-i-price">
+						<b>$95</b>
+					</p>
+				</div>
+				<div class="prod-i">
+					<div class="prod-i-top">
+						<a href="product.html" class="prod-i-img"><!-- NO SPACE --><img src="http://placehold.it/300x480" alt="Facilis illum"><!-- NO SPACE --></a>
+						<p class="prod-i-info">
+							<a href="#" class="prod-i-favorites"><span>Wishlist</span><i class="fa fa-heart"></i></a>
+							<a href="#" class="qview-btn prod-i-qview"><span>Quick View</span><i class="fa fa-search"></i></a>
+							<a class="prod-i-compare" href="#"><span>Compare</span><i class="fa fa-bar-chart"></i></a>
+						</p>
+						<a href="#" class="prod-i-buy">Add to cart</a>
+						<p class="prod-i-properties-label"><i class="fa fa-info"></i></p>
+
+						<div class="prod-i-properties">
+							<dl>
+								<dt>Outerwear Type</dt>
+								<dd>Down & Parkas<br></dd>
+								<dt>Closure Type</dt>
+								<dd>Zipper<br></dd>
+								<dt>Filling</dt>
+								<dd>Cotton<br></dd>
+								<dt>Fabric Type</dt>
+								<dd>Woven<br></dd>
+								<dt>Clothing Length</dt>
+								<dd>Regular<br></dd>
+								<dt>Material</dt>
+								<dd>Polyester<br></dd>
+								<dt>Pattern Type</dt>
+								<dd>Solid<br></dd>
+								<dt>Decoration</dt>
+								<dd>Pockets, Zippers<br></dd>
+								<dt>Sleeve Length</dt>
+								<dd>Full<br></dd>
+								<dt>Hooded</dt>
+								<dd>Yes<br></dd>
+							</dl>
+						</div>
+					</div>
+					<h3>
+						<a href="product.html">Facilis illum</a>
+					</h3>
+					<p class="prod-i-price">
+						<b>$150</b>
+						<del>$180</del>
+					</p>
+				</div>
+				<div class="prod-i">
+					<div class="prod-i-top">
+						<a href="product.html" class="prod-i-img"><!-- NO SPACE --><img src="http://placehold.it/358x300" alt="Iusto labore laudantium"><!-- NO SPACE --></a>
+						<p class="prod-i-info">
+							<a href="#" class="prod-i-favorites"><span>Wishlist</span><i class="fa fa-heart"></i></a>
+							<a href="#" class="qview-btn prod-i-qview"><span>Quick View</span><i class="fa fa-search"></i></a>
+							<a class="prod-i-compare" href="#"><span>Compare</span><i class="fa fa-bar-chart"></i></a>
+						</p>
+						<a href="#" class="prod-i-buy">Add to cart</a>
+						<p class="prod-i-properties-label"><i class="fa fa-info"></i></p>
+
+						<div class="prod-i-properties">
+							<dl>
+								<dt>Handbags Type</dt>
+								<dd>Shoulder Bags<br></dd>
+								<dt>Exterior</dt>
+								<dd>Silt Pocket<br></dd>
+								<dt>Material</dt>
+								<dd>Canvas<br></dd>
+								<dt>Occasion</dt>
+								<dd>Versatile<br></dd>
+								<dt>Shape</dt>
+								<dd>Casual Tote<br></dd>
+								<dt>Pattern Type</dt>
+								<dd>Solid<br></dd>
+								<dt>Style</dt>
+								<dd>Casual<br></dd>
+								<dt>Hardness</dt>
+								<dd>Soft<br></dd>
+								<dt>Decoration</dt>
+								<dd>None<br></dd>
+								<dt>Closure Type</dt>
+								<dd>Zipper<br></dd>
+							</dl>
+						</div>
+
+						<div class="prod-sticker">
+							<p class="prod-sticker-1">NEW</p>
+							<br><p class="prod-sticker-2">HIT</p>
+						</div>
+					</div>
+					<h3>
+						<a href="product.html">Iusto labore laudantium</a>
+					</h3>
+					<p class="prod-i-price">
+						<b>$170</b>
+					</p>
+				</div>
+				<div class="prod-i">
+					<div class="prod-i-top">
+						<a href="product.html" class="prod-i-img"><!-- NO SPACE --><img src="http://placehold.it/300x504" alt="Fuga impedit inciduntipsa"><!-- NO SPACE --></a>
+						<p class="prod-i-info">
+							<a href="#" class="prod-i-favorites"><span>Wishlist</span><i class="fa fa-heart"></i></a>
+							<a href="#" class="qview-btn prod-i-qview"><span>Quick View</span><i class="fa fa-search"></i></a>
+							<a class="prod-i-compare" href="#"><span>Compare</span><i class="fa fa-bar-chart"></i></a>
+						</p>
+						<a href="#" class="prod-i-buy">Add to cart</a>
+						<p class="prod-i-properties-label"><i class="fa fa-info"></i></p>
+
+						<div class="prod-i-properties">
+							<dl>
+								<dt>Gender</dt>
+								<dd>Women<br></dd>
+								<dt>Silhouette</dt>
+								<dd>Sheath<br></dd>
+								<dt>Material</dt>
+								<dd>Polyester<br></dd>
+								<dt>Season</dt>
+								<dd>Autumn<br></dd>
+								<dt>Style</dt>
+								<dd>Casual<br></dd>
+								<dt>Waistline</dt>
+								<dd>Natural<br></dd>
+							</dl>
+						</div>
+
+						<div class="prod-sticker">
+							<p class="prod-sticker-3">-30%</p><p class="prod-sticker-4 countdown" data-date="29 Jan 2017, 14:30:00"></p>
+						</div>
+					</div>
+					<h3>
+						<a href="product.html">Fuga impedit inciduntipsa</a>
+					</h3>
+					<p class="prod-i-price">
+						<b>$80</b>
+					</p>
+				</div>
+
 			</div>
 
 			<!-- Pagination - start -->

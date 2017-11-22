@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2017-11-21 15:56:03
+<?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 16:23:32
          compiled from "smarty\templates\tablet\layout.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:174335a1329f1af3e89-90777105%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,25 +7,25 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '0bed6eed0c5841ad9946771a8f86cc3eb7c7f80d' => 
     array (
       0 => 'smarty\\templates\\tablet\\layout.tpl',
-      1 => 1511270362,
+      1 => 1511367738,
       2 => 'file',
     ),
     'e0734278ae9da0e34a12899ed984b77d116c8cf5' => 
     array (
       0 => 'smarty\\templates\\layout.tpl',
-      1 => 1511270362,
+      1 => 1511367738,
       2 => 'file',
     ),
     'd83077e51f0c7f8703094d8c498c56a0adc8e871' => 
     array (
       0 => 'smarty\\templates\\slider.tpl',
-      1 => 1511270362,
+      1 => 1511367738,
       2 => 'file',
     ),
     '6652bf75f43eb8665356b88e8a0e2401680ee1b9' => 
     array (
       0 => 'smarty\\templates\\header.tpl',
-      1 => 1511270362,
+      1 => 1511367738,
       2 => 'file',
     ),
   ),
@@ -42,23 +42,23 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <?php /*  Call merged included template "header.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '174335a1329f1af3e89-90777105');
-content_5a144c93685cf1_59572462($_smarty_tpl);
+content_5a15a484e50154_73584736($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "header.tpl" */?>
 <?php echo $_smarty_tpl->getSubTemplate ("content.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
 <?php echo $_smarty_tpl->getSubTemplate ("footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 <?php }} ?>
-<?php /* Smarty version Smarty-3.1.18, created on 2017-11-21 15:56:03
+<?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 16:23:32
          compiled from "smarty\templates\header.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5a144c93685cf1_59572462')) {function content_5a144c93685cf1_59572462($_smarty_tpl) {?><header class="header">
+<?php if ($_valid && !is_callable('content_5a15a484e50154_73584736')) {function content_5a15a484e50154_73584736($_smarty_tpl) {?><header class="header">
 
     <!-- Topbar - start -->
     <div class="header_top">
         <div class="container">
             <ul class="contactinfo nav nav-pills">
                 <li>
-                    <i class='fa fa-phone'></i> +7 777 123 1575
+                    <i class='fa fa-phone'></i> (028) 38 399 000
                 </li>
                 <li>
                     <i class="fa fa-envelope"></i> admin@real-web.pro
@@ -660,9 +660,9 @@ $_smarty_tpl = array_pop($_tpl_stack);
 <main>
     <section class="container">
         <?php }} ?>
-<?php /* Smarty version Smarty-3.1.18, created on 2017-11-21 15:56:03
+<?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 16:23:32
          compiled from "smarty\templates\slider.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5a144c9368d9f5_57306758')) {function content_5a144c9368d9f5_57306758($_smarty_tpl) {?><div class="fr-slider-wrap">
+<?php if ($_valid && !is_callable('content_5a15a484e677b8_51163959')) {function content_5a15a484e677b8_51163959($_smarty_tpl) {?><div class="fr-slider-wrap">
             <div class="fr-slider">
                 <ul class="slides">
                     <li>
