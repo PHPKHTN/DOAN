@@ -123,7 +123,7 @@
 			<div class="prod-wrap">
 				<a href="product.html">
 					<h1 class="main-ttl">
-						<span>Reprehenderit adipisci</span>
+						<span>{$ds->ten_san_pham}</span>
 					</h1>
 				</a>
 				<div class="prod-slider-wrap">
@@ -131,37 +131,7 @@
 						<ul class="prod-slider-car">
 							<li>
 								<a data-fancybox-group="popup-product" class="fancy-img" href="http://placehold.it/500x525">
-									<img src="http://placehold.it/500x525" alt="">
-								</a>
-							</li>
-							<li>
-								<a data-fancybox-group="popup-product" class="fancy-img" href="http://placehold.it/500x591">
-									<img src="http://placehold.it/500x591" alt="">
-								</a>
-							</li>
-							<li>
-								<a data-fancybox-group="popup-product" class="fancy-img" href="http://placehold.it/500x525">
-									<img src="http://placehold.it/500x525" alt="">
-								</a>
-							</li>
-							<li>
-								<a data-fancybox-group="popup-product" class="fancy-img" href="http://placehold.it/500x722">
-									<img src="http://placehold.it/500x722" alt="">
-								</a>
-							</li>
-							<li>
-								<a data-fancybox-group="popup-product" class="fancy-img" href="http://placehold.it/500x722">
-									<img src="http://placehold.it/500x722" alt="">
-								</a>
-							</li>
-							<li>
-								<a data-fancybox-group="popup-product" class="fancy-img" href="http://placehold.it/500x722">
-									<img src="http://placehold.it/500x722" alt="">
-								</a>
-							</li>
-							<li>
-								<a data-fancybox-group="popup-product" class="fancy-img" href="http://placehold.it/500x722">
-									<img src="http://placehold.it/500x722" alt="">
+									<img src="public/images/san_pham/{$ds->hinh}" alt="">
 								</a>
 							</li>
 						</ul>

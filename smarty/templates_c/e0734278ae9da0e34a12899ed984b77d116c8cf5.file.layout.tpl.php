@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 17:04:09
+<?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 17:12:25
          compiled from "smarty\templates\layout.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:120045a15ae09756699-07612466%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -19,7 +19,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '6652bf75f43eb8665356b88e8a0e2401680ee1b9' => 
     array (
       0 => 'smarty\\templates\\header.tpl',
-      1 => 1511369878,
+      1 => 1511370734,
       2 => 'file',
     ),
   ),
@@ -27,25 +27,25 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.18',
   'unifunc' => 'content_5a15ae097c7b16_95268694',
+  'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5a15ae097c7b16_95268694')) {function content_5a15ae097c7b16_95268694($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ("head.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
 <?php /*  Call merged included template "header.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '120045a15ae09756699-07612466');
-content_5a15ae09799110_76506723($_smarty_tpl);
+content_5a15aff9b15484_50064100($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "header.tpl" */?>
 <?php echo $_smarty_tpl->getSubTemplate ("content.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
 <?php echo $_smarty_tpl->getSubTemplate ("footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 <?php }} ?>
-<?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 17:04:09
+<?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 17:12:25
          compiled from "smarty\templates\header.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5a15ae09799110_76506723')) {function content_5a15ae09799110_76506723($_smarty_tpl) {?><header class="header">
+<?php if ($_valid && !is_callable('content_5a15aff9b15484_50064100')) {function content_5a15aff9b15484_50064100($_smarty_tpl) {?><header class="header">
 
     <!-- Topbar - start -->
     <div class="header_top">
@@ -155,71 +155,20 @@ $_smarty_tpl = array_pop($_tpl_stack);
                             Trang chủ
                         </a>
                     </li>
-                    <li class="menu-item-has-children">
+                    <li>
                         <a href="dien_thoai.php">
-                            Điện thoại <i class="fa fa-angle-down"></i>
+                            Điện thoại
                         </a>
-                        <ul class="sub-menu">
-                            <li>
-                                <a href="catalog-list.html">
-                                    Catalog List - Style 1
-                                </a>
-                            </li>
-                            <li>
-                                <a href="catalog-list-2.html">
-                                    Catalog List - Style 2
-                                </a>
-                            </li>
-                            <li>
-                                <a href="catalog-gallery.html">
-                                    Catalog Gallery - Style 1
-                                </a>
-                            </li>
-                            <li>
-                                <a href="catalog-gallery-2.html">
-                                    Catalog Gallery - Style 2
-                                </a>
-                            </li>
-                            <li>
-                                <a href="catalog-table.html">
-                                    Catalog Table
-                                </a>
-                            </li>
-                        </ul>
                     </li>
-                    <li class="menu-item-has-children">
+                    <li>
                         <a href="tablet.php">
-                            Tablet <i class="fa fa-angle-down"></i>
+                            Tablet
                         </a>
-                        <ul class="sub-menu">
-                            <li>
-                                <a href="product.html">
-                                    Product - Style 1 (Slider)
-                                </a>
-                            </li>
-                            <li>
-                                <a href="product-2.html">
-                                    Product - Style 2 (Scroll)
-                                </a>
-                            </li>
-                        </ul>
                     </li>
-                    <li class="menu-item-has-children">
+                    <li>
                         <a href="phu_kien.php">
-                            Phụ Kiện <i class="fa fa-angle-down"></i>
+                            Phụ Kiện
                         </a>
-                        <ul class="sub-menu">
-                            <li>
-                                <a href="product.html">
-                                    Product - Style 1 (Slider)
-                                </a>
-                            </li>
-                            <li>
-                                <a href="product-2.html">
-                                    Product - Style 2 (Scroll)
-                                </a>
-                            </li>
-                        </ul>
                     </li>
                     <li>
                         <a href="tin_tuc.php">
@@ -260,12 +209,12 @@ $_smarty_tpl = array_pop($_tpl_stack);
         <?php /*  Call merged included template "slider.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("slider.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '120045a15ae09756699-07612466');
-content_5a15ae097a93c5_54288986($_smarty_tpl);
+content_5a15aff9b24293_70040615($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "slider.tpl" */?><?php }} ?>
-<?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 17:04:09
+<?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 17:12:25
          compiled from "smarty\templates\slider.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5a15ae097a93c5_54288986')) {function content_5a15ae097a93c5_54288986($_smarty_tpl) {?><div class="fr-slider-wrap">
+<?php if ($_valid && !is_callable('content_5a15aff9b24293_70040615')) {function content_5a15aff9b24293_70040615($_smarty_tpl) {?><div class="fr-slider-wrap">
             <div class="fr-slider">
                 <ul class="slides">
                     <li>

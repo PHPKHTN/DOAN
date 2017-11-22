@@ -1,63 +1,29 @@
-<<<<<<< HEAD
-<?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 17:11:46
-         compiled from "views\tablet\v_tablet.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:9975a15afd20abdd6-43657053%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
-=======
-<?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 17:22:32
-         compiled from "views\tablet\v_tablet.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:182665a15affc20cc73-04968449%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
->>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
+<?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 17:13:21
+         compiled from "views\lien_he\v_lien_he.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:1975a15b031ef0936-40487795%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    '8e5de67176a8a28e27c7a24de2adfcee453e0466' => 
+    '71735d7d6aa3fcbe3c121808841931870243c7a1' => 
     array (
-      0 => 'views\\tablet\\v_tablet.tpl',
-<<<<<<< HEAD
-      1 => 1511367796,
+      0 => 'views\\lien_he\\v_lien_he.tpl',
+      1 => 1511369878,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '9975a15afd20abdd6-43657053',
+  'nocache_hash' => '1975a15b031ef0936-40487795',
   'function' => 
   array (
-  ),
-  'variables' => 
-  array (
-=======
-      1 => 1511371347,
-      2 => 'file',
-    ),
-  ),
-  'nocache_hash' => '182665a15affc20cc73-04968449',
-  'function' => 
-  array (
-  ),
-  'version' => 'Smarty-3.1.18',
-  'unifunc' => 'content_5a15affc27ac49_58744036',
-  'variables' => 
-  array (
-    'title' => 0,
->>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
-    'ds_tablet' => 0,
-    'ds' => 0,
-    'ds_phan_trang' => 0,
   ),
   'has_nocache_code' => false,
-<<<<<<< HEAD
   'version' => 'Smarty-3.1.18',
-  'unifunc' => 'content_5a15afd21193e6_44242790',
+  'unifunc' => 'content_5a15b031f277f5_58924137',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a15afd21193e6_44242790')) {function content_5a15afd21193e6_44242790($_smarty_tpl) {?><!-- Main Content - start -->
-=======
-),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a15affc27ac49_58744036')) {function content_5a15affc27ac49_58744036($_smarty_tpl) {?><!-- Main Content - start -->
->>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
+<?php if ($_valid && !is_callable('content_5a15b031f277f5_58924137')) {function content_5a15b031f277f5_58924137($_smarty_tpl) {?><!-- Main Content - start -->
 <main>
 	<section class="container">
 
 
-<<<<<<< HEAD
 		<ul class="b-crumbs">
 			<li>
 				<a href="index.html">
@@ -74,17 +40,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 			</li>
 		</ul>
 		<h1 class="main-ttl"><span>Women</span></h1>
-=======
-		
-		<h1 class="main-ttl"><span><?php echo $_smarty_tpl->tpl_vars['title']->value;?>
-</span></h1>
->>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
 		<!-- Catalog Sidebar - start -->
 		<div class="section-sb">
 
 			<!-- Catalog Categories - start -->
 			<div class="section-sb-current">
-<<<<<<< HEAD
 				<h3><a href="catalog-list.html">Women <span id="section-sb-toggle" class="section-sb-toggle"><span class="section-sb-ico"></span></span></a></h3>
 				<ul class="section-sb-list" id="section-sb-list">
 					<li class="categ-1">
@@ -100,20 +60,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 					<li class="categ-1 has_child">
 						<a href="catalog-list.html">
 							<span class="categ-1-label">Bags</span>
-=======
-				<h3><a href="catalog-list.html"><?php echo $_smarty_tpl->tpl_vars['title']->value;?>
-<span id="section-sb-toggle" class="section-sb-toggle"><span class="section-sb-ico"></span></span></a></h3>
-				<ul class="section-sb-list" id="section-sb-list">
-					<li class="categ-1 has_child">
-						<a href="catalog-list.html">
-							<span class="categ-1-label">Hãng sản xuất</span>
->>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
 							<span class="section-sb-toggle"><span class="section-sb-ico"></span></span>
 						</a>
 						<ul>
 							<li class="categ-2">
 								<a href="catalog-list.html">
-<<<<<<< HEAD
 									<span class="categ-2-label">Shoulder Bags</span>
 								</a>
 							</li>
@@ -125,94 +76,57 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 							<li class="categ-2">
 								<a href="catalog-list.html">
 									<span class="categ-2-label">Becks</span>
-=======
-									<span class="categ-2-label">Apple</span>
->>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
 								</a>
 							</li>
 							<li class="categ-2">
 								<a href="catalog-list.html">
-<<<<<<< HEAD
 									<span class="categ-2-label">Clutches</span>
-=======
-									<span class="categ-2-label">Samsung</span>
->>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
 								</a>
 							</li>
 							<li class="categ-2">
 								<a href="catalog-list.html">
-<<<<<<< HEAD
 									<span class="categ-2-label">Travel Bags</span>
-=======
-									<span class="categ-2-label">Sony</span>
->>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
 								</a>
 							</li>
 						</ul>
 					</li>
 					<li class="categ-1 has_child">
 						<a href="catalog-list.html">
-<<<<<<< HEAD
 							<span class="categ-1-label">Accessories</span>
-=======
-							<span class="categ-1-label">Mức giá</span>
->>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
 							<span class="section-sb-toggle"><span class="section-sb-ico"></span></span>
 						</a>
 						<ul>
 							<li class="categ-2">
 								<a href="catalog-list.html">
-<<<<<<< HEAD
 									<span class="categ-2-label">Sunglasses</span>
-=======
-									<span class="categ-2-label">Dưới 1 triệu</span>
->>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
 								</a>
 							</li>
 							<li class="categ-2">
 								<a href="catalog-list.html">
-<<<<<<< HEAD
 									<span class="categ-2-label">Tech Cases</span>
-=======
-									<span class="categ-2-label">Từ 1 - 3 triệu</span>
->>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
 								</a>
 							</li>
 							<li class="categ-2">
 								<a href="catalog-list.html">
-<<<<<<< HEAD
 									<span class="categ-2-label">Jewelry</span>
 								</a>
 							</li>
 							<li class="categ-2">
 								<a href="catalog-list.html">
 									<span class="categ-2-label">Stella</span>
-=======
-									<span class="categ-2-label">Từ 3 - 5 triệu</span>
->>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
 								</a>
 							</li>
 						</ul>
 					</li>
 					<li class="categ-1">
 						<a href="catalog-list.html">
-<<<<<<< HEAD
 							<span class="categ-1-label">Coats & Jackets</span>
-=======
-							<span class="categ-1-label">Sắp xếp theo giá tăng dần</span>
-						</a>
-					</li>
-					<li class="categ-1">
-						<a href="catalog-list.html">
-							<span class="categ-1-label">Sắp xếp theo giá giảm dần</span>
->>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
 						</a>
 					</li>
 				</ul>
 			</div>
 			<!-- Catalog Categories - end -->
 
-<<<<<<< HEAD
 			<!-- Filter - start -->
 			<div class="section-filter">
 				<button id="section-filter-toggle" class="section-filter-toggle" data-close="Hide Filter" data-open="Show Filter">
@@ -667,16 +581,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 				</div>
 			</div>
 			<!-- Filter - end -->
-=======
-			
->>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
 
 		</div>
 		<!-- Catalog Sidebar - end -->
 		<!-- Catalog Items | Gallery V1 - start -->
 		<div class="section-cont">
 
-<<<<<<< HEAD
 			<!-- Catalog Topbar - start -->
 			<div class="section-top">
 
@@ -724,24 +634,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 			</div>
 			<!-- Catalog Topbar - end -->
-=======
-			
->>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
 			<div class="prod-items section-items">
-				<?php  $_smarty_tpl->tpl_vars['ds'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['ds']->_loop = false;
- $_from = $_smarty_tpl->tpl_vars['ds_tablet']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
-foreach ($_from as $_smarty_tpl->tpl_vars['ds']->key => $_smarty_tpl->tpl_vars['ds']->value) {
-$_smarty_tpl->tpl_vars['ds']->_loop = true;
-?>
+
 				<div class="prod-i">
 					<div class="prod-i-top">
-						<a href="product.html" class="prod-i-img"><!-- NO SPACE --><img src="public/images/san_pham/<?php echo $_smarty_tpl->tpl_vars['ds']->value->hinh;?>
-<<<<<<< HEAD
-" alt="<?php echo $_smarty_tpl->tpl_vars['ds']->value->ten_san_pham;?>
-"><!-- NO SPACE --></a>
-=======
-" alt="Adipisci aperiam commodi"><!-- NO SPACE --></a>
->>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
+						<a href="product.html" class="prod-i-img"><!-- NO SPACE --><img src="http://placehold.it/300x311" alt="Adipisci aperiam commodi"><!-- NO SPACE --></a>
 						<p class="prod-i-info">
 							<a href="#" class="prod-i-favorites"><span>Wishlist</span><i class="fa fa-heart"></i></a>
 							<a href="#" class="qview-btn prod-i-qview"><span>Quick View</span><i class="fa fa-search"></i></a>
@@ -752,7 +649,6 @@ $_smarty_tpl->tpl_vars['ds']->_loop = true;
 
 						<div class="prod-i-properties">
 							<dl>
-<<<<<<< HEAD
 								<dt>Exterior</dt>
 								<dd>Silt Pocket<br></dd>
 								<dt>Material</dt>
@@ -771,22 +667,14 @@ $_smarty_tpl->tpl_vars['ds']->_loop = true;
 								<dd>None<br></dd>
 								<dt>Closure Type</dt>
 								<dd>Zipper<br></dd>
-=======
-								<dt>Mô tả</dt>
-								<dd><?php echo $_smarty_tpl->tpl_vars['ds']->value->mo_ta;?>
-<br></dd>
->>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
 							</dl>
 						</div>
 					</div>
 					<h3>
-						<a href="product.html"><?php echo $_smarty_tpl->tpl_vars['ds']->value->ten_san_pham;?>
-</a>
+						<a href="product.html">Adipisci aperiam commodi</a>
 					</h3>
 					<p class="prod-i-price">
-						<b><?php echo number_format($_smarty_tpl->tpl_vars['ds']->value->don_gia,0,",",".");?>
-<<<<<<< HEAD
- đ</b>
+						<b>$59</b>
 					</p>
 					<div class="prod-i-skuwrapcolor">
 						<ul class="prod-i-skucolor">
@@ -795,19 +683,471 @@ $_smarty_tpl->tpl_vars['ds']->_loop = true;
 						</ul>
 					</div>
 				</div>
-				<?php } ?>
-=======
-đ</b>
+				<div class="prod-i">
+					<div class="prod-i-top">
+						<a href="product.html" class="prod-i-img"><!-- NO SPACE --><img src="http://placehold.it/300x366" alt="Nulla numquam obcaecati"><!-- NO SPACE --></a>
+						<p class="prod-i-info">
+							<a href="#" class="prod-i-favorites"><span>Wishlist</span><i class="fa fa-heart"></i></a>
+							<a href="#" class="qview-btn prod-i-qview"><span>Quick View</span><i class="fa fa-search"></i></a>
+							<a class="prod-i-compare" href="#"><span>Compare</span><i class="fa fa-bar-chart"></i></a>
+						</p>
+						<a href="#" class="prod-i-buy">Add to cart</a>
+						<p class="prod-i-properties-label"><i class="fa fa-info"></i></p>
+
+						<div class="prod-i-properties">
+							<dl>
+								<dt>Material</dt>
+								<dd>Cotton,Polyester<br></dd>
+								<dt>Sleeve Length</dt>
+								<dd>Short<br></dd>
+								<dt>Tops Type</dt>
+								<dd>Tees<br></dd>
+								<dt>Pattern Type</dt>
+								<dd>Solid<br></dd>
+								<dt>Style</dt>
+								<dd>Casual<br></dd>
+								<dt>Hooded</dt>
+								<dd>No<br></dd>
+								<dt>Collar</dt>
+								<dd>V-Neck<br></dd>
+								<dt>Sleeve Style</dt>
+								<dd>General<br></dd>
+							</dl>
+						</div>
+					</div>
+					<h3>
+						<a href="product.html">Nulla numquam obcaecati</a>
+					</h3>
+					<p class="prod-i-price">
+						<b>$48</b>
 					</p>
 				</div>
-                <?php } ?>
+				<div class="prod-i">
+					<div class="prod-i-top">
+						<a href="product.html" class="prod-i-img"><!-- NO SPACE --><img src="http://placehold.it/370x300" alt="Dignissimos eaque earum"><!-- NO SPACE --></a>
+						<p class="prod-i-info">
+							<a href="#" class="prod-i-favorites"><span>Wishlist</span><i class="fa fa-heart"></i></a>
+							<a href="#" class="qview-btn prod-i-qview"><span>Quick View</span><i class="fa fa-search"></i></a>
+							<a class="prod-i-compare" href="#"><span>Compare</span><i class="fa fa-bar-chart"></i></a>
+						</p>
+						<a href="#" class="prod-i-buy">Add to cart</a>
+						<p class="prod-i-properties-label"><i class="fa fa-info"></i></p>
+
+						<div class="prod-i-properties">
+							<dl>
+								<dt>Gender</dt>
+								<dd>Unisex<br></dd>
+								<dt>Material</dt>
+								<dd>Wool, Polyester<br></dd>
+								<dt>Style</dt>
+								<dd>Casual<br></dd>
+								<dt>Pattern Type</dt>
+								<dd>Solid<br></dd>
+								<dt>Hats size</dt>
+								<dd>Oversize<br></dd>
+							</dl>
+						</div>
+					</div>
+					<h3>
+						<a href="product.html">Dignissimos eaque earum</a>
+					</h3>
+					<p class="prod-i-price">
+						<b>$37</b>
+					</p>
+				</div>
+				<div class="prod-i">
+					<div class="prod-i-top">
+						<a href="product.html" class="prod-i-img"><!-- NO SPACE --><img src="http://placehold.it/300x345" alt="Porro quae quasi"><!-- NO SPACE --></a>
+						<p class="prod-i-info">
+							<a href="#" class="prod-i-favorites"><span>Wishlist</span><i class="fa fa-heart"></i></a>
+							<a href="#" class="qview-btn prod-i-qview"><span>Quick View</span><i class="fa fa-search"></i></a>
+							<a class="prod-i-compare" href="#"><span>Compare</span><i class="fa fa-bar-chart"></i></a>
+						</p>
+						<a href="#" class="prod-i-buy">Add to cart</a>
+						<p class="prod-i-properties-label"><i class="fa fa-info"></i></p>
+
+						<div class="prod-i-properties">
+							<dl>
+								<dt>Sleeve Length</dt>
+								<dd>Full<br></dd>
+								<dt>Sleeve Style</dt>
+								<dd>Long sleeve<br></dd>
+								<dt>Collar</dt>
+								<dd>V-Neck<br></dd>
+								<dt>Fabric Type</dt>
+								<dd>Broadcloth<br></dd>
+								<dt>Material</dt>
+								<dd>Cotton,Spandex<br></dd>
+								<dt>Hooded</dt>
+								<dd>No<br></dd>
+								<dt>Pattern Type</dt>
+								<dd>Solid<br></dd>
+								<dt>Gender</dt>
+								<dd>Men<br></dd>
+								<dt>Style</dt>
+								<dd>Fashion<br></dd>
+							</dl>
+						</div>
+					</div>
+					<h3>
+						<a href="product.html">Porro quae quasi</a>
+					</h3>
+					<p class="prod-i-price">
+						<b>$85</b>
+						<del>$110</del>
+					</p>
+				</div>
+				<div class="prod-i">
+					<div class="prod-i-top">
+						<a href="product.html" class="prod-i-img"><!-- NO SPACE --><img src="http://placehold.it/378x300" alt="Sunt temporibus velit"><!-- NO SPACE --></a>
+						<p class="prod-i-info">
+							<a href="#" class="prod-i-favorites"><span>Wishlist</span><i class="fa fa-heart"></i></a>
+							<a href="#" class="qview-btn prod-i-qview"><span>Quick View</span><i class="fa fa-search"></i></a>
+							<a class="prod-i-compare" href="#"><span>Compare</span><i class="fa fa-bar-chart"></i></a>
+						</p>
+						<a href="#" class="prod-i-buy">Add to cart</a>
+						<p class="prod-i-properties-label"><i class="fa fa-info"></i></p>
+
+						<div class="prod-i-properties">
+							<dl>
+								<dt>Gender</dt>
+								<dd>Men<br></dd>
+								<dt>Shaft Material</dt>
+								<dd>Flock<br></dd>
+								<dt>Lining Material</dt>
+								<dd>Plush<br></dd>
+								<dt>Insole Material</dt>
+								<dd>Rubber<br></dd>
+								<dt>Season</dt>
+								<dd>Winter<br></dd>
+								<dt>With Platforms</dt>
+								<dd>No<br></dd>
+								<dt>Pattern Type</dt>
+								<dd>Solid<br></dd>
+								<dt>Boot Height</dt>
+								<dd>Ankle<br></dd>
+								<dt>Closure Type</dt>
+								<dd>Lace-Up<br></dd>
+							</dl>
+						</div>
+					</div>
+					<h3>
+						<a href="product.html">Sunt temporibus velit</a>
+					</h3>
+					<p class="prod-i-price">
+						<b>$115</b>
+					</p>
+				</div>
+				<div class="prod-i">
+					<div class="prod-i-top">
+						<a href="product.html" class="prod-i-img"><!-- NO SPACE --><img src="http://placehold.it/300x394" alt="Harum illum incidunt"><!-- NO SPACE --></a>
+						<p class="prod-i-info">
+							<a href="#" class="prod-i-favorites"><span>Wishlist</span><i class="fa fa-heart"></i></a>
+							<a href="#" class="qview-btn prod-i-qview"><span>Quick View</span><i class="fa fa-search"></i></a>
+							<a class="prod-i-compare" href="#"><span>Compare</span><i class="fa fa-bar-chart"></i></a>
+						</p>
+						<a href="#" class="prod-i-buy">Add to cart</a>
+						<p class="prod-i-properties-label"><i class="fa fa-info"></i></p>
+
+						<div class="prod-i-properties">
+							<dl>
+								<dt>Outerwear Type</dt>
+								<dd>Jackets<br></dd>
+								<dt>Sleeve Style</dt>
+								<dd>Regular<br></dd>
+								<dt>Pattern Type</dt>
+								<dd>Solid<br></dd>
+								<dt>Material</dt>
+								<dd>Polyester,Cotton<br></dd>
+								<dt>Hooded</dt>
+								<dd>Yes<br></dd>
+								<dt>Style</dt>
+								<dd>Casual<br></dd>
+								<dt>Collar</dt>
+								<dd>Turn-down Collar<br></dd>
+								<dt>Decoration</dt>
+								<dd>Pockets<br></dd>
+								<dt>Gender</dt>
+								<dd>Men<br></dd>
+								<dt>Closure Type</dt>
+								<dd>Zipper<br></dd>
+							</dl>
+						</div>
+					</div>
+					<h3>
+						<a href="product.html">Harum illum incidunt</a>
+					</h3>
+					<p class="prod-i-price">
+						<b>$130</b>
+					</p>
+				</div>
+				<div class="prod-i">
+					<div class="prod-i-top">
+						<a href="product.html" class="prod-i-img"><!-- NO SPACE --><img src="http://placehold.it/300x303" alt="Reprehenderit rerum"><!-- NO SPACE --></a>
+						<p class="prod-i-info">
+							<a href="#" class="prod-i-favorites"><span>Wishlist</span><i class="fa fa-heart"></i></a>
+							<a href="#" class="qview-btn prod-i-qview"><span>Quick View</span><i class="fa fa-search"></i></a>
+							<a class="prod-i-compare" href="#"><span>Compare</span><i class="fa fa-bar-chart"></i></a>
+						</p>
+						<a href="#" class="prod-i-buy">Add to cart</a>
+						<p class="prod-i-properties-label"><i class="fa fa-info"></i></p>
+
+						<div class="prod-i-properties">
+							<dl>
+								<dt>Outerwear Type</dt>
+								<dd>Jackets<br></dd>
+								<dt>Sleeve Style</dt>
+								<dd>Regular<br></dd>
+								<dt>Pattern Type</dt>
+								<dd>Solid<br></dd>
+								<dt>Material</dt>
+								<dd>Polyester,Cotton<br></dd>
+								<dt>Hooded</dt>
+								<dd>Yes<br></dd>
+								<dt>Style</dt>
+								<dd>Casual<br></dd>
+								<dt>Collar</dt>
+								<dd>Turn-down Collar<br></dd>
+								<dt>Decoration</dt>
+								<dd>Pockets<br></dd>
+								<dt>Gender</dt>
+								<dd>Boys<br></dd>
+								<dt>Closure Type</dt>
+								<dd>Zipper<br></dd>
+							</dl>
+						</div>
+
+						<div class="prod-sticker">
+							<p class="prod-sticker-3">-20%</p>
+						</div>
+					</div>
+					<h3>
+						<a href="product.html">Reprehenderit rerum</a>
+					</h3>
+					<p class="prod-i-price">
+						<b>$210</b>
+						<del>$240</del>
+					</p>
+				</div>
+				<div class="prod-i">
+					<div class="prod-i-top">
+						<a href="product.html" class="prod-i-img"><!-- NO SPACE --><img src="http://placehold.it/300x588" alt="Quae quasi adipisci alias"><!-- NO SPACE --></a>
+						<p class="prod-i-info">
+							<a href="#" class="prod-i-favorites"><span>Wishlist</span><i class="fa fa-heart"></i></a>
+							<a href="#" class="qview-btn prod-i-qview"><span>Quick View</span><i class="fa fa-search"></i></a>
+							<a class="prod-i-compare" href="#"><span>Compare</span><i class="fa fa-bar-chart"></i></a>
+						</p>
+						<a href="#" class="prod-i-buy">Add to cart</a>
+						<p class="prod-i-properties-label"><i class="fa fa-info"></i></p>
+
+						<div class="prod-i-properties">
+							<dl>
+								<dt>Gender</dt>
+								<dd>Women<br></dd>
+								<dt>Pattern Type</dt>
+								<dd>Solid<br></dd>
+								<dt>Color Style</dt>
+								<dd>Natural Color<br></dd>
+								<dt>Material</dt>
+								<dd>Polyester<br></dd>
+								<dt>Length</dt>
+								<dd>LongHooded<br></dd>
+								<dt>Fabric Type</dt>
+								<dd>Woven<br></dd>
+							</dl>
+						</div>
+					</div>
+					<h3>
+						<a href="product.html">Quae quasi adipisci alias</a>
+					</h3>
+					<p class="prod-i-price">
+						<b>$85</b>
+					</p>
+				</div>
+				<div class="prod-i">
+					<div class="prod-i-top">
+						<a href="product.html" class="prod-i-img"><!-- NO SPACE --><img src="http://placehold.it/300x416" alt="Maxime molestias necessitatibus nobis"><!-- NO SPACE --></a>
+						<p class="prod-i-info">
+							<a href="#" class="prod-i-favorites"><span>Wishlist</span><i class="fa fa-heart"></i></a>
+							<a href="#" class="qview-btn prod-i-qview"><span>Quick View</span><i class="fa fa-search"></i></a>
+							<a class="prod-i-compare" href="#"><span>Compare</span><i class="fa fa-bar-chart"></i></a>
+						</p>
+						<a href="#" class="prod-i-buy">Add to cart</a>
+						<p class="prod-i-properties-label"><i class="fa fa-info"></i></p>
+
+						<div class="prod-i-properties">
+							<dl>
+								<dt>Outerwear Type</dt>
+								<dd>Jackets<br></dd>
+								<dt>Sleeve Style</dt>
+								<dd>Regular<br></dd>
+								<dt>Pattern Type</dt>
+								<dd>Solid<br></dd>
+								<dt>Material</dt>
+								<dd>Polyester,Cotton<br></dd>
+								<dt>Hooded</dt>
+								<dd>Yes<br></dd>
+								<dt>Style</dt>
+								<dd>Casual<br></dd>
+								<dt>Collar</dt>
+								<dd>Turn-down Collar<br></dd>
+								<dt>Decoration</dt>
+								<dd>Pockets<br></dd>
+								<dt>Gender</dt>
+								<dd>Men<br></dd>
+								<dt>Closure Type</dt>
+								<dd>Zipper<br></dd>
+							</dl>
+						</div>
+					</div>
+					<h3>
+						<a href="product.html">Maxime molestias necessitatibus nobis</a>
+					</h3>
+					<p class="prod-i-price">
+						<b>$95</b>
+					</p>
+				</div>
+				<div class="prod-i">
+					<div class="prod-i-top">
+						<a href="product.html" class="prod-i-img"><!-- NO SPACE --><img src="http://placehold.it/300x480" alt="Facilis illum"><!-- NO SPACE --></a>
+						<p class="prod-i-info">
+							<a href="#" class="prod-i-favorites"><span>Wishlist</span><i class="fa fa-heart"></i></a>
+							<a href="#" class="qview-btn prod-i-qview"><span>Quick View</span><i class="fa fa-search"></i></a>
+							<a class="prod-i-compare" href="#"><span>Compare</span><i class="fa fa-bar-chart"></i></a>
+						</p>
+						<a href="#" class="prod-i-buy">Add to cart</a>
+						<p class="prod-i-properties-label"><i class="fa fa-info"></i></p>
+
+						<div class="prod-i-properties">
+							<dl>
+								<dt>Outerwear Type</dt>
+								<dd>Down & Parkas<br></dd>
+								<dt>Closure Type</dt>
+								<dd>Zipper<br></dd>
+								<dt>Filling</dt>
+								<dd>Cotton<br></dd>
+								<dt>Fabric Type</dt>
+								<dd>Woven<br></dd>
+								<dt>Clothing Length</dt>
+								<dd>Regular<br></dd>
+								<dt>Material</dt>
+								<dd>Polyester<br></dd>
+								<dt>Pattern Type</dt>
+								<dd>Solid<br></dd>
+								<dt>Decoration</dt>
+								<dd>Pockets, Zippers<br></dd>
+								<dt>Sleeve Length</dt>
+								<dd>Full<br></dd>
+								<dt>Hooded</dt>
+								<dd>Yes<br></dd>
+							</dl>
+						</div>
+					</div>
+					<h3>
+						<a href="product.html">Facilis illum</a>
+					</h3>
+					<p class="prod-i-price">
+						<b>$150</b>
+						<del>$180</del>
+					</p>
+				</div>
+				<div class="prod-i">
+					<div class="prod-i-top">
+						<a href="product.html" class="prod-i-img"><!-- NO SPACE --><img src="http://placehold.it/358x300" alt="Iusto labore laudantium"><!-- NO SPACE --></a>
+						<p class="prod-i-info">
+							<a href="#" class="prod-i-favorites"><span>Wishlist</span><i class="fa fa-heart"></i></a>
+							<a href="#" class="qview-btn prod-i-qview"><span>Quick View</span><i class="fa fa-search"></i></a>
+							<a class="prod-i-compare" href="#"><span>Compare</span><i class="fa fa-bar-chart"></i></a>
+						</p>
+						<a href="#" class="prod-i-buy">Add to cart</a>
+						<p class="prod-i-properties-label"><i class="fa fa-info"></i></p>
+
+						<div class="prod-i-properties">
+							<dl>
+								<dt>Handbags Type</dt>
+								<dd>Shoulder Bags<br></dd>
+								<dt>Exterior</dt>
+								<dd>Silt Pocket<br></dd>
+								<dt>Material</dt>
+								<dd>Canvas<br></dd>
+								<dt>Occasion</dt>
+								<dd>Versatile<br></dd>
+								<dt>Shape</dt>
+								<dd>Casual Tote<br></dd>
+								<dt>Pattern Type</dt>
+								<dd>Solid<br></dd>
+								<dt>Style</dt>
+								<dd>Casual<br></dd>
+								<dt>Hardness</dt>
+								<dd>Soft<br></dd>
+								<dt>Decoration</dt>
+								<dd>None<br></dd>
+								<dt>Closure Type</dt>
+								<dd>Zipper<br></dd>
+							</dl>
+						</div>
+
+						<div class="prod-sticker">
+							<p class="prod-sticker-1">NEW</p>
+							<br><p class="prod-sticker-2">HIT</p>
+						</div>
+					</div>
+					<h3>
+						<a href="product.html">Iusto labore laudantium</a>
+					</h3>
+					<p class="prod-i-price">
+						<b>$170</b>
+					</p>
+				</div>
+				<div class="prod-i">
+					<div class="prod-i-top">
+						<a href="product.html" class="prod-i-img"><!-- NO SPACE --><img src="http://placehold.it/300x504" alt="Fuga impedit inciduntipsa"><!-- NO SPACE --></a>
+						<p class="prod-i-info">
+							<a href="#" class="prod-i-favorites"><span>Wishlist</span><i class="fa fa-heart"></i></a>
+							<a href="#" class="qview-btn prod-i-qview"><span>Quick View</span><i class="fa fa-search"></i></a>
+							<a class="prod-i-compare" href="#"><span>Compare</span><i class="fa fa-bar-chart"></i></a>
+						</p>
+						<a href="#" class="prod-i-buy">Add to cart</a>
+						<p class="prod-i-properties-label"><i class="fa fa-info"></i></p>
+
+						<div class="prod-i-properties">
+							<dl>
+								<dt>Gender</dt>
+								<dd>Women<br></dd>
+								<dt>Silhouette</dt>
+								<dd>Sheath<br></dd>
+								<dt>Material</dt>
+								<dd>Polyester<br></dd>
+								<dt>Season</dt>
+								<dd>Autumn<br></dd>
+								<dt>Style</dt>
+								<dd>Casual<br></dd>
+								<dt>Waistline</dt>
+								<dd>Natural<br></dd>
+							</dl>
+						</div>
+
+						<div class="prod-sticker">
+							<p class="prod-sticker-3">-30%</p><p class="prod-sticker-4 countdown" data-date="29 Jan 2017, 14:30:00"></p>
+						</div>
+					</div>
+					<h3>
+						<a href="product.html">Fuga impedit inciduntipsa</a>
+					</h3>
+					<p class="prod-i-price">
+						<b>$80</b>
+					</p>
+				</div>
+
 			</div>
 
->>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
 			<!-- Pagination - start -->
 			<ul class="pagi">
-				<li><span><?php echo $_smarty_tpl->tpl_vars['ds_phan_trang']->value;?>
-</span></li>
+				<li class="active"><span>1</span></li>
+				<li><a href="#">2</a></li>
+				<li><a href="#">3</a></li>
+				<li><a href="#">4</a></li>
+				<li class="pagi-next"><a href="#"><i class="fa fa-angle-double-right"></i></a></li>
 			</ul>
 			<!-- Pagination - end -->
 		</div>
@@ -818,12 +1158,7 @@ $_smarty_tpl->tpl_vars['ds']->_loop = true;
 			<div class="prod-wrap">
 				<a href="product.html">
 					<h1 class="main-ttl">
-<<<<<<< HEAD
 						<span>Reprehenderit adipisci</span>
-=======
-						<span><?php echo $_smarty_tpl->tpl_vars['ds']->value->ten_san_pham;?>
-</span>
->>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
 					</h1>
 				</a>
 				<div class="prod-slider-wrap">
@@ -831,7 +1166,6 @@ $_smarty_tpl->tpl_vars['ds']->_loop = true;
 						<ul class="prod-slider-car">
 							<li>
 								<a data-fancybox-group="popup-product" class="fancy-img" href="http://placehold.it/500x525">
-<<<<<<< HEAD
 									<img src="http://placehold.it/500x525" alt="">
 								</a>
 							</li>
@@ -863,10 +1197,6 @@ $_smarty_tpl->tpl_vars['ds']->_loop = true;
 							<li>
 								<a data-fancybox-group="popup-product" class="fancy-img" href="http://placehold.it/500x722">
 									<img src="http://placehold.it/500x722" alt="">
-=======
-									<img src="public/images/san_pham/<?php echo $_smarty_tpl->tpl_vars['ds']->value->hinh;?>
-" alt="">
->>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
 								</a>
 							</li>
 						</ul>

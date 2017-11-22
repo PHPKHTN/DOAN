@@ -1,12 +1,19 @@
+<<<<<<< HEAD
 <?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 17:11:47
          compiled from "views\phu_kien\v_phu_kien.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:277825a15afd3b8d671-86117913%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+=======
+<?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 17:23:06
+         compiled from "views\phu_kien\v_phu_kien.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:271915a15affd276c39-16034570%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+>>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'e4a16f3a4326a198e0ef94923f3bd99d8359ff47' => 
     array (
       0 => 'views\\phu_kien\\v_phu_kien.tpl',
+<<<<<<< HEAD
       1 => 1511368619,
       2 => 'file',
     ),
@@ -17,19 +24,40 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'variables' => 
   array (
+=======
+      1 => 1511371383,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '271915a15affd276c39-16034570',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.18',
+  'unifunc' => 'content_5a15affd30c4f4_79906559',
+  'variables' => 
+  array (
+    'title' => 0,
+>>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
     'ds_phu_kien' => 0,
     'ds' => 0,
     'ds_phan_trang' => 0,
   ),
   'has_nocache_code' => false,
+<<<<<<< HEAD
   'version' => 'Smarty-3.1.18',
   'unifunc' => 'content_5a15afd3bef108_13738146',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5a15afd3bef108_13738146')) {function content_5a15afd3bef108_13738146($_smarty_tpl) {?><!-- Main Content - start -->
+=======
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_5a15affd30c4f4_79906559')) {function content_5a15affd30c4f4_79906559($_smarty_tpl) {?><!-- Main Content - start -->
+>>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
 <main>
 	<section class="container">
 
 
+<<<<<<< HEAD
 		<ul class="b-crumbs">
 			<li>
 				<a href="index.html">
@@ -46,11 +74,17 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 			</li>
 		</ul>
 		<h1 class="main-ttl"><span>Women</span></h1>
+=======
+		
+		<h1 class="main-ttl"><span><?php echo $_smarty_tpl->tpl_vars['title']->value;?>
+</span></h1>
+>>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
 		<!-- Catalog Sidebar - start -->
 		<div class="section-sb">
 
 			<!-- Catalog Categories - start -->
 			<div class="section-sb-current">
+<<<<<<< HEAD
 				<h3><a href="catalog-list.html">Women <span id="section-sb-toggle" class="section-sb-toggle"><span class="section-sb-ico"></span></span></a></h3>
 				<ul class="section-sb-list" id="section-sb-list">
 					<li class="categ-1">
@@ -66,11 +100,20 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 					<li class="categ-1 has_child">
 						<a href="catalog-list.html">
 							<span class="categ-1-label">Bags</span>
+=======
+				<h3><a href="catalog-list.html"><?php echo $_smarty_tpl->tpl_vars['title']->value;?>
+<span id="section-sb-toggle" class="section-sb-toggle"><span class="section-sb-ico"></span></span></a></h3>
+				<ul class="section-sb-list" id="section-sb-list">
+					<li class="categ-1 has_child">
+						<a href="catalog-list.html">
+							<span class="categ-1-label">Hãng sản xuất</span>
+>>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
 							<span class="section-sb-toggle"><span class="section-sb-ico"></span></span>
 						</a>
 						<ul>
 							<li class="categ-2">
 								<a href="catalog-list.html">
+<<<<<<< HEAD
 									<span class="categ-2-label">Shoulder Bags</span>
 								</a>
 							</li>
@@ -82,57 +125,94 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 							<li class="categ-2">
 								<a href="catalog-list.html">
 									<span class="categ-2-label">Becks</span>
+=======
+									<span class="categ-2-label">Apple</span>
+>>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
 								</a>
 							</li>
 							<li class="categ-2">
 								<a href="catalog-list.html">
+<<<<<<< HEAD
 									<span class="categ-2-label">Clutches</span>
+=======
+									<span class="categ-2-label">Samsung</span>
+>>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
 								</a>
 							</li>
 							<li class="categ-2">
 								<a href="catalog-list.html">
+<<<<<<< HEAD
 									<span class="categ-2-label">Travel Bags</span>
+=======
+									<span class="categ-2-label">Sony</span>
+>>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
 								</a>
 							</li>
 						</ul>
 					</li>
 					<li class="categ-1 has_child">
 						<a href="catalog-list.html">
+<<<<<<< HEAD
 							<span class="categ-1-label">Accessories</span>
+=======
+							<span class="categ-1-label">Mức giá</span>
+>>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
 							<span class="section-sb-toggle"><span class="section-sb-ico"></span></span>
 						</a>
 						<ul>
 							<li class="categ-2">
 								<a href="catalog-list.html">
+<<<<<<< HEAD
 									<span class="categ-2-label">Sunglasses</span>
+=======
+									<span class="categ-2-label">Dưới 1 triệu</span>
+>>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
 								</a>
 							</li>
 							<li class="categ-2">
 								<a href="catalog-list.html">
+<<<<<<< HEAD
 									<span class="categ-2-label">Tech Cases</span>
+=======
+									<span class="categ-2-label">Từ 1 - 3 triệu</span>
+>>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
 								</a>
 							</li>
 							<li class="categ-2">
 								<a href="catalog-list.html">
+<<<<<<< HEAD
 									<span class="categ-2-label">Jewelry</span>
 								</a>
 							</li>
 							<li class="categ-2">
 								<a href="catalog-list.html">
 									<span class="categ-2-label">Stella</span>
+=======
+									<span class="categ-2-label">Từ 3 - 5 triệu</span>
+>>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
 								</a>
 							</li>
 						</ul>
 					</li>
 					<li class="categ-1">
 						<a href="catalog-list.html">
+<<<<<<< HEAD
 							<span class="categ-1-label">Coats & Jackets</span>
+=======
+							<span class="categ-1-label">Sắp xếp theo giá tăng dần</span>
+						</a>
+					</li>
+					<li class="categ-1">
+						<a href="catalog-list.html">
+							<span class="categ-1-label">Sắp xếp theo giá giảm dần</span>
+>>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
 						</a>
 					</li>
 				</ul>
 			</div>
 			<!-- Catalog Categories - end -->
 
+<<<<<<< HEAD
 			<!-- Filter - start -->
 			<div class="section-filter">
 				<button id="section-filter-toggle" class="section-filter-toggle" data-close="Hide Filter" data-open="Show Filter">
@@ -587,12 +667,16 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 				</div>
 			</div>
 			<!-- Filter - end -->
+=======
+			
+>>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
 
 		</div>
 		<!-- Catalog Sidebar - end -->
 		<!-- Catalog Items | Gallery V1 - start -->
 		<div class="section-cont">
 
+<<<<<<< HEAD
 			<!-- Catalog Topbar - start -->
 			<div class="section-top">
 
@@ -640,6 +724,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 			</div>
 			<!-- Catalog Topbar - end -->
+=======
+			
+>>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
 			<div class="prod-items section-items">
 				<?php  $_smarty_tpl->tpl_vars['ds'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['ds']->_loop = false;
  $_from = $_smarty_tpl->tpl_vars['ds_phu_kien']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
@@ -649,8 +736,12 @@ $_smarty_tpl->tpl_vars['ds']->_loop = true;
 				<div class="prod-i">
 					<div class="prod-i-top">
 						<a href="product.html" class="prod-i-img"><!-- NO SPACE --><img src="public/images/san_pham/<?php echo $_smarty_tpl->tpl_vars['ds']->value->hinh;?>
+<<<<<<< HEAD
 " alt="<?php echo $_smarty_tpl->tpl_vars['ds']->value->ten_san_pham;?>
 "><!-- NO SPACE --></a>
+=======
+" alt="Adipisci aperiam commodi"><!-- NO SPACE --></a>
+>>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
 						<p class="prod-i-info">
 							<a href="#" class="prod-i-favorites"><span>Wishlist</span><i class="fa fa-heart"></i></a>
 							<a href="#" class="qview-btn prod-i-qview"><span>Quick View</span><i class="fa fa-search"></i></a>
@@ -661,6 +752,7 @@ $_smarty_tpl->tpl_vars['ds']->_loop = true;
 
 						<div class="prod-i-properties">
 							<dl>
+<<<<<<< HEAD
 								<dt>Exterior</dt>
 								<dd>Silt Pocket<br></dd>
 								<dt>Material</dt>
@@ -679,6 +771,11 @@ $_smarty_tpl->tpl_vars['ds']->_loop = true;
 								<dd>None<br></dd>
 								<dt>Closure Type</dt>
 								<dd>Zipper<br></dd>
+=======
+								<dt>Mô tả</dt>
+								<dd><?php echo $_smarty_tpl->tpl_vars['ds']->value->mo_ta;?>
+<br></dd>
+>>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
 							</dl>
 						</div>
 					</div>
@@ -690,6 +787,7 @@ $_smarty_tpl->tpl_vars['ds']->_loop = true;
 						<b><?php echo number_format($_smarty_tpl->tpl_vars['ds']->value->don_gia,0,",",".");?>
 đ</b>
 					</p>
+<<<<<<< HEAD
 					<div class="prod-i-skuwrapcolor">
 						<ul class="prod-i-skucolor">
 							<li class="bx_active"><img src="img/color/red.jpg" alt="Red"></li>
@@ -699,6 +797,12 @@ $_smarty_tpl->tpl_vars['ds']->_loop = true;
 				</div>
 				<?php } ?>
 			</div>
+=======
+				</div>
+                <?php } ?>
+			</div>
+
+>>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
 			<!-- Pagination - start -->
 			<ul class="pagi">
 				<li><span><?php echo $_smarty_tpl->tpl_vars['ds_phan_trang']->value;?>
@@ -713,7 +817,12 @@ $_smarty_tpl->tpl_vars['ds']->_loop = true;
 			<div class="prod-wrap">
 				<a href="product.html">
 					<h1 class="main-ttl">
+<<<<<<< HEAD
 						<span>Reprehenderit adipisci</span>
+=======
+						<span><?php echo $_smarty_tpl->tpl_vars['ds']->value->ten_san_pham;?>
+</span>
+>>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
 					</h1>
 				</a>
 				<div class="prod-slider-wrap">
@@ -721,6 +830,7 @@ $_smarty_tpl->tpl_vars['ds']->_loop = true;
 						<ul class="prod-slider-car">
 							<li>
 								<a data-fancybox-group="popup-product" class="fancy-img" href="http://placehold.it/500x525">
+<<<<<<< HEAD
 									<img src="http://placehold.it/500x525" alt="">
 								</a>
 							</li>
@@ -752,6 +862,10 @@ $_smarty_tpl->tpl_vars['ds']->_loop = true;
 							<li>
 								<a data-fancybox-group="popup-product" class="fancy-img" href="http://placehold.it/500x722">
 									<img src="http://placehold.it/500x722" alt="">
+=======
+									<img src="public/images/san_pham/<?php echo $_smarty_tpl->tpl_vars['ds']->value->hinh;?>
+" alt="">
+>>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
 								</a>
 							</li>
 						</ul>
