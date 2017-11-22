@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 16:23:24
+=======
+<?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 16:23:20
+>>>>>>> 9c975c63f89200589922531a170a4e9778397313
          compiled from "views\dien_thoai\v_dien_thoai.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:153065a131df91efd69-66720862%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +11,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '9f1b7b9079055453df256e4828aa946732a7e961' => 
     array (
       0 => 'views\\dien_thoai\\v_dien_thoai.tpl',
+<<<<<<< HEAD
       1 => 1511367730,
+=======
+      1 => 1511367738,
+>>>>>>> 9c975c63f89200589922531a170a4e9778397313
       2 => 'file',
     ),
   ),

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 16:43:00
+=======
+<?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 16:33:40
+>>>>>>> 9c975c63f89200589922531a170a4e9778397313
          compiled from "smarty\templates\layout.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:37935a1313d09a1d80-43415676%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,19 +11,23 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e0734278ae9da0e34a12899ed984b77d116c8cf5' => 
     array (
       0 => 'smarty\\templates\\layout.tpl',
-      1 => 1511270362,
+      1 => 1511367738,
       2 => 'file',
     ),
     'd83077e51f0c7f8703094d8c498c56a0adc8e871' => 
     array (
       0 => 'smarty\\templates\\slider.tpl',
-      1 => 1511270362,
+      1 => 1511367738,
       2 => 'file',
     ),
     '6652bf75f43eb8665356b88e8a0e2401680ee1b9' => 
     array (
       0 => 'smarty\\templates\\header.tpl',
+<<<<<<< HEAD
       1 => 1511367472,
+=======
+      1 => 1511368382,
+>>>>>>> 9c975c63f89200589922531a170a4e9778397313
       2 => 'file',
     ),
   ),
@@ -36,16 +44,26 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <?php /*  Call merged included template "header.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '37935a1313d09a1d80-43415676');
+<<<<<<< HEAD
 content_5a15a914f08f13_53318343($_smarty_tpl);
+=======
+content_5a15a6e4449e35_38365188($_smarty_tpl);
+>>>>>>> 9c975c63f89200589922531a170a4e9778397313
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "header.tpl" */?>
 <?php echo $_smarty_tpl->getSubTemplate ("content.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
 <?php echo $_smarty_tpl->getSubTemplate ("footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 <?php }} ?>
+<<<<<<< HEAD
 <?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 16:43:00
          compiled from "smarty\templates\header.tpl" */ ?>
 <?php if ($_valid && !is_callable('content_5a15a914f08f13_53318343')) {function content_5a15a914f08f13_53318343($_smarty_tpl) {?><header class="header">
+=======
+<?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 16:33:40
+         compiled from "smarty\templates\header.tpl" */ ?>
+<?php if ($_valid && !is_callable('content_5a15a6e4449e35_38365188')) {function content_5a15a6e4449e35_38365188($_smarty_tpl) {?><header class="header">
+>>>>>>> 9c975c63f89200589922531a170a4e9778397313
 
     <!-- Topbar - start -->
     <div class="header_top">
@@ -145,386 +163,6 @@ $_smarty_tpl = array_pop($_tpl_stack);
     <div class="header-bottom">
         <div class="container">
             <nav class="topmenu">
-
-                <!-- Catalog menu - start -->
-                <div class="topcatalog">
-                    <a class="topcatalog-btn" href="catalog-list.html"><span>All</span> catalog</a>
-                    <ul class="topcatalog-list">
-                        <li>
-                            <a href="catalog-list.html">
-                                Women
-                            </a>
-                            <i class="fa fa-angle-right"></i>
-                            <ul>
-                                <li>
-                                    <a href="catalog-list.html">
-                                        Knitwear
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="catalog-list.html">
-                                        Dresses
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="catalog-list.html">
-                                        Bags
-                                    </a>
-                                    <i class="fa fa-angle-right"></i>
-                                    <ul>
-                                        <li>
-                                            <a href="catalog-list.html">
-                                                Shoulder Bags
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="catalog-list.html">
-                                                Falabella
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="catalog-list.html">
-                                                Becks
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="catalog-list.html">
-                                                Clutches
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="catalog-list.html">
-                                                Travel Bags
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="catalog-list.html">
-                                        Accessories
-                                    </a>
-                                    <i class="fa fa-angle-right"></i>
-                                    <ul>
-                                        <li>
-                                            <a href="catalog-list.html">
-                                                Sunglasses
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="catalog-list.html">
-                                                Tech Cases
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="catalog-list.html">
-                                                Jewelry
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="catalog-list.html">
-                                                Stella
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="catalog-list.html">
-                                        Coats & Jackets
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="catalog-list.html">
-                                Men
-                            </a>
-                            <i class="fa fa-angle-right"></i>
-                            <ul>
-                                <li>
-                                    <a href="catalog-list.html">
-                                        Jackets & Blazers
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="catalog-list.html">
-                                        Pants & Shorts
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="catalog-list.html">
-                                        Accessories
-                                    </a>
-                                    <i class="fa fa-angle-right"></i>
-                                    <ul>
-                                        <li>
-                                            <a href="catalog-list.html">
-                                                Bags
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="catalog-list.html">
-                                                Sunglasses
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="catalog-list.html">
-                                                Other Accessories
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="catalog-list.html">
-                                        Suiting
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="catalog-list.html">
-                                        Shirts
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="catalog-list.html">
-                                Kids
-                            </a>
-                            <i class="fa fa-angle-right"></i>
-                            <ul>
-                                <li>
-                                    <a href="catalog-list.html">
-                                        Girls
-                                    </a>
-                                    <i class="fa fa-angle-right"></i>
-                                    <ul>
-                                        <li>
-                                            <a href="catalog-list.html">
-                                                Outerwear
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="catalog-list.html">
-                                                T-Shirts
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="catalog-list.html">
-                                                Blouses & Shirts
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="catalog-list.html">
-                                                Pants & Shorts
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="catalog-list.html">
-                                                Sleepwear & Underwear
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="catalog-list.html">
-                                                Skirts
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="catalog-list.html">
-                                        Boys
-                                    </a>
-                                    <i class="fa fa-angle-right"></i>
-                                    <ul>
-                                        <li>
-                                            <a href="catalog-list.html">
-                                                Shoes & Accessories
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="catalog-list.html">
-                                                Jumpers & Cardigans
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="catalog-list.html">
-                                                Shirts
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="catalog-list.html">
-                                                Outerwear
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="catalog-list.html">
-                                                Swimwear
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="catalog-list.html">
-                                        Baby
-                                    </a>
-                                    <i class="fa fa-angle-right"></i>
-                                    <ul>
-                                        <li>
-                                            <a href="catalog-list.html">
-                                                Baby Sets
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="catalog-list.html">
-                                                Dresses & All-In-One
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="catalog-list.html">
-                                                Pants & Shorts
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="catalog-list.html">
-                                                Shoes & Accessories
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="catalog-list.html">
-                                                T-shirts
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="catalog-list.html">
-                                                Outerwear
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="catalog-list.html">
-                                Shoes
-                            </a>
-                            <i class="fa fa-angle-right"></i>
-                            <ul>
-                                <li>
-                                    <a href="catalog-list.html">
-                                        Women
-                                    </a>
-                                    <i class="fa fa-angle-right"></i>
-                                    <ul>
-                                        <li>
-                                            <a href="catalog-list.html">
-                                                Elyse
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="catalog-list.html">
-                                                Odette
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="catalog-list.html">
-                                                Brody
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="catalog-list.html">
-                                                Flats
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="catalog-list.html">
-                                                Sandals
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="catalog-list.html">
-                                        Men
-                                    </a>
-                                    <i class="fa fa-angle-right"></i>
-                                    <ul>
-                                        <li>
-                                            <a href="catalog-list.html">
-                                                Casual Shoes
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="catalog-list.html">
-                                                Sneakers
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="catalog-list.html">
-                                                Sandals
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="catalog-list.html">
-                                                Boots
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="catalog-list.html">
-                                                Mules & Clogs
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="catalog-list.html">
-                                        Children's
-                                    </a>
-                                    <i class="fa fa-angle-right"></i>
-                                    <ul>
-                                        <li>
-                                            <a href="catalog-list.html">
-                                                Girls
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="catalog-list.html">
-                                                Boys
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="catalog-list.html">
-                                        Baby Shoe
-                                    </a>
-                                    <i class="fa fa-angle-right"></i>
-                                    <ul>
-                                        <li>
-                                            <a href="catalog-list.html">
-                                                First Walkers
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="catalog-list.html">
-                                                Sneakers
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="catalog-list.html">
-                                                Boots
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="catalog-list.html">
-                                                Sandals & Clogs
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-                <!-- Catalog menu - end -->
 
                 <!-- Main menu - start -->
                 <button type="button" class="mainmenu-btn">Menu</button>
@@ -628,7 +266,8 @@ $_smarty_tpl = array_pop($_tpl_stack);
                 </div>
                 <!-- Search - end -->
 
-            </nav>		</div>
+            </nav>
+        </div>
     </div>
     <!-- Topmenu - end -->
 
@@ -639,12 +278,21 @@ $_smarty_tpl = array_pop($_tpl_stack);
         <?php /*  Call merged included template "slider.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("slider.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '37935a1313d09a1d80-43415676');
+<<<<<<< HEAD
 content_5a15a914f10c19_41475299($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "slider.tpl" */?><?php }} ?>
 <?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 16:43:00
          compiled from "smarty\templates\slider.tpl" */ ?>
 <?php if ($_valid && !is_callable('content_5a15a914f10c19_41475299')) {function content_5a15a914f10c19_41475299($_smarty_tpl) {?><div class="fr-slider-wrap">
+=======
+content_5a15a6e445d868_09799458($_smarty_tpl);
+$_smarty_tpl = array_pop($_tpl_stack); 
+/*  End of included template "slider.tpl" */?><?php }} ?>
+<?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 16:33:40
+         compiled from "smarty\templates\slider.tpl" */ ?>
+<?php if ($_valid && !is_callable('content_5a15a6e445d868_09799458')) {function content_5a15a6e445d868_09799458($_smarty_tpl) {?><div class="fr-slider-wrap">
+>>>>>>> 9c975c63f89200589922531a170a4e9778397313
             <div class="fr-slider">
                 <ul class="slides">
                     <li>
