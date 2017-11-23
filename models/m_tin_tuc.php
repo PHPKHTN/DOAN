@@ -6,11 +6,26 @@
 	class M_tin_tuc extends database
 	{
 		
-		public function Doc_ds_tin_tuc()
+		public function Doc_tin_tuc($vt=-1, $limit=-1)
 		{
-			$sql="SELECT * FROM san_pham";
+			$sql="SELECT * FROM tin_tuc";
+			if($vt>=0 && $limit>0)
+            {
+                $sql .= " limit $vt, $limit";
+            }
 			$this->setQuery($sql);
+<<<<<<< HEAD
 			$asd=$this->loadAllRows();
+=======
+			return $this->loadAllRows();
+		}
+
+		public function Doc_tin_tuc_theo_ma_tin_tuc($ma_tin)
+		{
+			$sql = "select * from tin_tuc where ma_tin=?";
+			$this->setQuery($sql);
+			return $this->loadRow(array($ma_tin));
+>>>>>>> fb12ecff1fd97bc8a531739717ece300c4b8957f
 		}
 	}
 ?>

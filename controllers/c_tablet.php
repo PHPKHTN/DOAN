@@ -20,7 +20,7 @@ class C_tablet
 		//views
 		include("controllers/Smarty_shop_mobile.php");
 		$smarty = new Smarty_shop_mobile();
-		$smarty->assign("title","Điện thoại");
+		$smarty->assign("title","Máy tính bảng");
 		$view="views/tablet/v_tablet.tpl";
 		$smarty->assign("view",$view);
 		$smarty->assign("ds_tablet", $ds_tablet);
