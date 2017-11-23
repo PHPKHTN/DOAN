@@ -1,57 +1,57 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 17:13:21
+<?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 19:03:04
          compiled from "smarty\templates\lien_he\layout.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:74335a15b031c87e18-31087732%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:225165a15c9e815f3e8-78176408%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '83639706e37b46906381ae4287fceaa907001e3c' => 
     array (
       0 => 'smarty\\templates\\lien_he\\layout.tpl',
-      1 => 1511369878,
+      1 => 1511270362,
       2 => 'file',
     ),
     'e0734278ae9da0e34a12899ed984b77d116c8cf5' => 
     array (
       0 => 'smarty\\templates\\layout.tpl',
-      1 => 1511369878,
+      1 => 1511270362,
       2 => 'file',
     ),
     'd83077e51f0c7f8703094d8c498c56a0adc8e871' => 
     array (
       0 => 'smarty\\templates\\slider.tpl',
-      1 => 1511369878,
+      1 => 1511270362,
       2 => 'file',
     ),
     '6652bf75f43eb8665356b88e8a0e2401680ee1b9' => 
     array (
       0 => 'smarty\\templates\\header.tpl',
-      1 => 1511370734,
+      1 => 1511377252,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '74335a15b031c87e18-31087732',
+  'nocache_hash' => '225165a15c9e815f3e8-78176408',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.18',
-  'unifunc' => 'content_5a15b031d89d71_69501955',
+  'unifunc' => 'content_5a15c9e81d46e1_54383576',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a15b031d89d71_69501955')) {function content_5a15b031d89d71_69501955($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ("head.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+<?php if ($_valid && !is_callable('content_5a15c9e81d46e1_54383576')) {function content_5a15c9e81d46e1_54383576($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ("head.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
 <?php /*  Call merged included template "header.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '74335a15b031c87e18-31087732');
-content_5a15b031d164e9_69317049($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '225165a15c9e815f3e8-78176408');
+content_5a15c9e81ad5e3_89771571($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "header.tpl" */?>
 <?php echo $_smarty_tpl->getSubTemplate ("content.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
 <?php echo $_smarty_tpl->getSubTemplate ("footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 <?php }} ?>
-<?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 17:13:21
+<?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 19:03:04
          compiled from "smarty\templates\header.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5a15b031d164e9_69317049')) {function content_5a15b031d164e9_69317049($_smarty_tpl) {?><header class="header">
+<?php if ($_valid && !is_callable('content_5a15c9e81ad5e3_89771571')) {function content_5a15c9e81ad5e3_89771571($_smarty_tpl) {?><header class="header">
 
     <!-- Topbar - start -->
     <div class="header_top">
@@ -213,9 +213,9 @@ $_smarty_tpl = array_pop($_tpl_stack);
 <main>
     <section class="container">
         <?php }} ?>
-<?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 17:13:21
+<?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 19:03:04
          compiled from "smarty\templates\slider.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5a15b031d2b151_62219060')) {function content_5a15b031d2b151_62219060($_smarty_tpl) {?><div class="fr-slider-wrap">
+<?php if ($_valid && !is_callable('content_5a15c9e81ad5e7_59378752')) {function content_5a15c9e81ad5e7_59378752($_smarty_tpl) {?><div class="fr-slider-wrap">
             <div class="fr-slider">
                 <ul class="slides">
                     <li>
