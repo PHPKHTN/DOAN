@@ -20,5 +20,6 @@
     <link rel="stylesheet" href="public/css/swiper.css">
     <link rel="stylesheet" href="public/css/style.css">
     <link rel="stylesheet" href="public/css/media.css">
+    <script src="ajax/thu_vien_ajax.js" type="text/javascript"></script>
 
 </head>

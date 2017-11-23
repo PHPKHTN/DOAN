@@ -1,4 +1,16 @@
+<<<<<<< HEAD
 <?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 19:02:31
+=======
+<<<<<<< HEAD
+<?php /* Smarty version Smarty-3.1.18, created on 2017-11-23 11:24:57
+=======
+<<<<<<< HEAD
+<?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 17:11:38
+=======
+<?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 17:12:17
+>>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
+>>>>>>> fb12ecff1fd97bc8a531739717ece300c4b8957f
+>>>>>>> 651f2d993654372d21964de4e42c0ef589fc7c75
          compiled from "views\dien_thoai\v_dien_thoai.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:301485a15c9c7a20214-02826454%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +19,19 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '9f1b7b9079055453df256e4828aa946732a7e961' => 
     array (
       0 => 'views\\dien_thoai\\v_dien_thoai.tpl',
+<<<<<<< HEAD
       1 => 1511377252,
+=======
+<<<<<<< HEAD
+      1 => 1511435796,
+=======
+<<<<<<< HEAD
+      1 => 1511370677,
+=======
+      1 => 1511370625,
+>>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
+>>>>>>> fb12ecff1fd97bc8a531739717ece300c4b8957f
+>>>>>>> 651f2d993654372d21964de4e42c0ef589fc7c75
       2 => 'file',
     ),
   ),
@@ -18,9 +42,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'variables' => 
   array (
     'title' => 0,
-    'ds_dien_thoai' => 0,
     'ds' => 0,
-    'ds_phan_trang' => 0,
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.18',
@@ -30,129 +52,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <main>
 	<section class="container">
 
-
 		
 		<h1 class="main-ttl"><span><?php echo $_smarty_tpl->tpl_vars['title']->value;?>
 </span></h1>
-		<!-- Catalog Sidebar - start -->
-		<div class="section-sb">
+			<?php echo $_smarty_tpl->getSubTemplate ("views/dien_thoai/v_dien_thoai_left.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
-			<!-- Catalog Categories - start -->
-			<div class="section-sb-current">
-				<h3><a href="catalog-list.html"><?php echo $_smarty_tpl->tpl_vars['title']->value;?>
-<span id="section-sb-toggle" class="section-sb-toggle"><span class="section-sb-ico"></span></span></a></h3>
-				<ul class="section-sb-list" id="section-sb-list">
-					<li class="categ-1 has_child">
-						<a href="catalog-list.html">
-							<span class="categ-1-label">Hãng sản xuất</span>
-							<span class="section-sb-toggle"><span class="section-sb-ico"></span></span>
-						</a>
-						<ul>
-							<li class="categ-2">
-								<a href="catalog-list.html">
-									<span class="categ-2-label">Apple</span>
-								</a>
-							</li>
-							<li class="categ-2">
-								<a href="catalog-list.html">
-									<span class="categ-2-label">Samsung</span>
-								</a>
-							</li>
-							<li class="categ-2">
-								<a href="catalog-list.html">
-									<span class="categ-2-label">Sony</span>
-								</a>
-							</li>
-						</ul>
-					</li>
-					<li class="categ-1 has_child">
-						<a href="catalog-list.html">
-							<span class="categ-1-label">Mức giá</span>
-							<span class="section-sb-toggle"><span class="section-sb-ico"></span></span>
-						</a>
-						<ul>
-							<li class="categ-2">
-								<a href="catalog-list.html">
-									<span class="categ-2-label">Dưới 1 triệu</span>
-								</a>
-							</li>
-							<li class="categ-2">
-								<a href="catalog-list.html">
-									<span class="categ-2-label">Từ 1 - 3 triệu</span>
-								</a>
-							</li>
-							<li class="categ-2">
-								<a href="catalog-list.html">
-									<span class="categ-2-label">Từ 3 - 5 triệu</span>
-								</a>
-							</li>
-						</ul>
-					</li>
-					<li class="categ-1">
-						<a href="catalog-list.html">
-							<span class="categ-1-label">Sắp xếp theo giá tăng dần</span>
-						</a>
-					</li>
-					<li class="categ-1">
-						<a href="catalog-list.html">
-							<span class="categ-1-label">Sắp xếp theo giá giảm dần</span>
-						</a>
-					</li>
-				</ul>
-			</div>
-			<!-- Catalog Categories - end -->
-
-			
-
-		</div>
-		<!-- Catalog Sidebar - end -->
 		<!-- Catalog Items | Gallery V1 - start -->
-		<div class="section-cont">
+		<div class="section-cont" id="ds_dien_thoai">
+			<?php echo $_smarty_tpl->getSubTemplate ("views/dien_thoai/v_dien_thoai_right.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
-			
-			<div class="prod-items section-items">
-				<?php  $_smarty_tpl->tpl_vars['ds'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['ds']->_loop = false;
- $_from = $_smarty_tpl->tpl_vars['ds_dien_thoai']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
-foreach ($_from as $_smarty_tpl->tpl_vars['ds']->key => $_smarty_tpl->tpl_vars['ds']->value) {
-$_smarty_tpl->tpl_vars['ds']->_loop = true;
-?>
-				<div class="prod-i">
-					<div class="prod-i-top">
-						<a href="product.html" class="prod-i-img"><!-- NO SPACE --><img src="public/images/san_pham/<?php echo $_smarty_tpl->tpl_vars['ds']->value->hinh;?>
-" alt="Adipisci aperiam commodi"><!-- NO SPACE --></a>
-						<p class="prod-i-info">
-							<a href="#" class="prod-i-favorites"><span>Wishlist</span><i class="fa fa-heart"></i></a>
-							<a href="#" class="qview-btn prod-i-qview"><span>Quick View</span><i class="fa fa-search"></i></a>
-							<a class="prod-i-compare" href="#"><span>Compare</span><i class="fa fa-bar-chart"></i></a>
-						</p>
-						<a href="#" class="prod-i-buy">Add to cart</a>
-						<p class="prod-i-properties-label"><i class="fa fa-info"></i></p>
-
-						<div class="prod-i-properties">
-							<dl>
-								<dt>Mô tả</dt>
-								<dd><?php echo $_smarty_tpl->tpl_vars['ds']->value->mo_ta;?>
-<br></dd>
-							</dl>
-						</div>
-					</div>
-					<h3>
-						<a href="product.html"><?php echo $_smarty_tpl->tpl_vars['ds']->value->ten_san_pham;?>
-</a>
-					</h3>
-					<p class="prod-i-price">
-						<b><?php echo number_format($_smarty_tpl->tpl_vars['ds']->value->don_gia,0,",",".");?>
-đ</b>
-					</p>
-				</div>
-                <?php } ?>
-			</div>
-
-			<!-- Pagination - start -->
-			<ul class="pagi">
-				<li><span><?php echo $_smarty_tpl->tpl_vars['ds_phan_trang']->value;?>
-</span></li>
-			</ul>
 			<!-- Pagination - end -->
 		</div>
 		<!-- Catalog Items | Gallery V1 - end -->
