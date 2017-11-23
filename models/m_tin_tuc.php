@@ -11,7 +11,6 @@
 			$sql="SELECT * FROM san_pham";
 			$this->setQuery($sql);
 			$asd=$this->loadAllRows();
-			print_r(count($asd));	
 		}
 	}
 ?>
