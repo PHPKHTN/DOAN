@@ -1,33 +1,53 @@
+<<<<<<< HEAD
 <?php /* Smarty version Smarty-3.1.18, created on 2017-11-23 17:34:30
          compiled from "views\tin_tuc\v_chi_tiet_tin_tuc.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:172545a1706a608e281-20973705%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+=======
+<?php /* Smarty version Smarty-3.1.18, created on 2017-11-23 17:19:51
+         compiled from "views\tin_tuc\v_chi_tiet_tin_tuc.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:38295a170337d95913-26970530%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+>>>>>>> fb5ff16a3f30db068268a36e7988beb4de71b58e
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'ed0eb1ec3fc8a0c8fba0c0f5f8b468b6f46234c9' => 
     array (
       0 => 'views\\tin_tuc\\v_chi_tiet_tin_tuc.tpl',
+<<<<<<< HEAD
       1 => 1511440286,
       2 => 'file',
     ),
   ),
   'nocache_hash' => '172545a1706a608e281-20973705',
+=======
+      1 => 1511456940,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '38295a170337d95913-26970530',
+>>>>>>> fb5ff16a3f30db068268a36e7988beb4de71b58e
   'function' => 
   array (
   ),
   'variables' => 
   array (
     'tin_tuc' => 0,
+    'ds_san_pham' => 0,
+    'ds' => 0,
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.18',
+<<<<<<< HEAD
   'unifunc' => 'content_5a1706a60ea549_83084807',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5a1706a60ea549_83084807')) {function content_5a1706a60ea549_83084807($_smarty_tpl) {?><!-- Main Content - start -->
+=======
+  'unifunc' => 'content_5a170337e2a030_50304851',
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_5a170337e2a030_50304851')) {function content_5a170337e2a030_50304851($_smarty_tpl) {?><!-- Main Content - start -->
+>>>>>>> fb5ff16a3f30db068268a36e7988beb4de71b58e
 <main>
     <section class="container">
-
-
         <ul class="b-crumbs">
             <li>
                 <a href="index.php">
@@ -57,13 +77,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <div class="flexslider post-slider" id="post-slider-car">
                 <ul class="slides">
                     <li>
-                        <a data-fancybox-group="fancy-img" class="fancy-img" href="img/post/post1.jpg"><img src="http://placehold.it/1140x450" alt=""></a>
+                        <a data-fancybox-group="fancy-img" class="" href="public/images/sidebar-slide1.jpg"><img src="public/images/sidebar-slide1.jpg" alt=""></a>
                     </li>
                     <li>
-                        <a data-fancybox-group="fancy-img" class="fancy-img" href="img/post/post2.jpg"><img src="http://placehold.it/1140x450" alt=""></a>
+                        <a data-fancybox-group="fancy-img" class="fancy-img" href="public/images/sidebar-slide2.jpg"><img src="public/images/sidebar-slide2.jpg" alt=""></a>
                     </li>
                     <li>
-                        <a data-fancybox-group="fancy-img" class="fancy-img" href="img/post/post3.jpg"><img src="http://placehold.it/1140x450" alt=""></a>
+                        <a data-fancybox-group="fancy-img" class="fancy-img" href="public/template/html/img/post/post3.jpg"><img src="http://placehold.it/1140x450" alt=""></a>
                     </li>
                 </ul>
             </div>
@@ -174,18 +194,27 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
         <!-- Related Products - start -->
         <div class="prod-related">
-            <h2><span>Related products</span></h2>
+            <h2><span>Có thể bạn muốn mua</span></h2>
             <div class="prod-related-car" id="prod-related-car">
                 <ul class="slides">
                     <li class="prod-rel-wrap">
+                        <?php  $_smarty_tpl->tpl_vars['ds'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['ds']->_loop = false;
+ $_from = $_smarty_tpl->tpl_vars['ds_san_pham']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+foreach ($_from as $_smarty_tpl->tpl_vars['ds']->key => $_smarty_tpl->tpl_vars['ds']->value) {
+$_smarty_tpl->tpl_vars['ds']->_loop = true;
+?>
                         <div class="prod-rel">
                             <a href="product.html" class="prod-rel-img">
-                                <img src="http://placehold.it/300x311" alt="Adipisci aperiam commodi">
+                                <img src="public/images/san_pham/<?php echo $_smarty_tpl->tpl_vars['ds']->value->hinh;?>
+" alt="<?php echo $_smarty_tpl->tpl_vars['ds']->value->ten_san_pham;?>
+">
                             </a>
                             <div class="prod-rel-cont">
-                                <h3><a href="product.html">Adipisci aperiam commodi</a></h3>
+                                <h3><a href="product.html"><?php echo $_smarty_tpl->tpl_vars['ds']->value->ten_san_pham;?>
+</a></h3>
                                 <p class="prod-rel-price">
-                                    <b>$59</b>
+                                    <b><?php echo number_format($_smarty_tpl->tpl_vars['ds']->value->don_gia,0,",",".");?>
+đ</b>
                                 </p>
                                 <div class="prod-rel-actions">
                                     <a title="Wishlist" href="#" class="prod-rel-favorites"><i class="fa fa-heart"></i></a>
@@ -196,196 +225,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                 </div>
                             </div>
                         </div>
-
-
-
-                        <div class="prod-rel">
-                            <a href="product.html" class="prod-rel-img">
-                                <img src="http://placehold.it/300x366" alt="Nulla numquam obcaecati">
-                            </a>
-                            <div class="prod-rel-cont">
-                                <h3><a href="product.html">Nulla numquam obcaecati</a></h3>
-                                <p class="prod-rel-price">
-                                    <b>$48</b>
-                                </p>
-                                <div class="prod-rel-actions">
-                                    <a title="Wishlist" href="#" class="prod-rel-favorites"><i class="fa fa-heart"></i></a>
-                                    <a title="Compare" href="#" class="prod-rel-compare"><i class="fa fa-bar-chart"></i></a>
-                                    <p class="prod-i-addwrap">
-                                        <a title="Add to cart" href="#" class="prod-i-add"><i class="fa fa-shopping-cart"></i></a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-
-
-                        <div class="prod-rel">
-                            <a href="product.html" class="prod-rel-img">
-                                <img src="http://placehold.it/370x300" alt="Dignissimos eaque earum">
-                            </a>
-                            <div class="prod-rel-cont">
-                                <h3><a href="product.html">Dignissimos eaque earum</a></h3>
-                                <p class="prod-rel-price">
-                                    <b>$37</b>
-                                </p>
-                                <div class="prod-rel-actions">
-                                    <a title="Wishlist" href="#" class="prod-rel-favorites"><i class="fa fa-heart"></i></a>
-                                    <a title="Compare" href="#" class="prod-rel-compare"><i class="fa fa-bar-chart"></i></a>
-                                    <p class="prod-i-addwrap">
-                                        <a title="Add to cart" href="#" class="prod-i-add"><i class="fa fa-shopping-cart"></i></a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-
-
-                        <div class="prod-rel">
-                            <a href="product.html" class="prod-rel-img">
-                                <img src="http://placehold.it/300x345" alt="Porro quae quasi">
-                            </a>
-                            <div class="prod-rel-cont">
-                                <h3><a href="product.html">Porro quae quasi</a></h3>
-                                <p class="prod-rel-price">
-                                    <b>$85</b>
-                                </p>
-                                <div class="prod-rel-actions">
-                                    <a title="Wishlist" href="#" class="prod-rel-favorites"><i class="fa fa-heart"></i></a>
-                                    <a title="Compare" href="#" class="prod-rel-compare"><i class="fa fa-bar-chart"></i></a>
-                                    <p class="prod-i-addwrap">
-                                        <a title="Add to cart" href="#" class="prod-i-add"><i class="fa fa-shopping-cart"></i></a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    <li class="prod-rel-wrap">
-                        <div class="prod-rel">
-                            <a href="product.html" class="prod-rel-img">
-                                <img src="http://placehold.it/378x300" alt="Sunt temporibus velit">
-                            </a>
-                            <div class="prod-rel-cont">
-                                <h3><a href="product.html">Sunt temporibus velit</a></h3>
-                                <p class="prod-rel-price">
-                                    <b>$115</b>
-                                </p>
-                                <div class="prod-rel-actions">
-                                    <a title="Wishlist" href="#" class="prod-rel-favorites"><i class="fa fa-heart"></i></a>
-                                    <a title="Compare" href="#" class="prod-rel-compare"><i class="fa fa-bar-chart"></i></a>
-                                    <p class="prod-i-addwrap">
-                                        <a title="Add to cart" href="#" class="prod-i-add"><i class="fa fa-shopping-cart"></i></a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-
-
-                        <div class="prod-rel">
-                            <a href="product.html" class="prod-rel-img">
-                                <img src="http://placehold.it/300x394" alt="Harum illum incidunt">
-                            </a>
-                            <div class="prod-rel-cont">
-                                <h3><a href="product.html">Harum illum incidunt</a></h3>
-                                <p class="prod-rel-price">
-                                    <b>$130</b>
-                                </p>
-                                <div class="prod-rel-actions">
-                                    <a title="Wishlist" href="#" class="prod-rel-favorites"><i class="fa fa-heart"></i></a>
-                                    <a title="Compare" href="#" class="prod-rel-compare"><i class="fa fa-bar-chart"></i></a>
-                                    <p class="prod-i-addwrap">
-                                        <a title="Add to cart" href="#" class="prod-i-add"><i class="fa fa-shopping-cart"></i></a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-
-
-                        <div class="prod-rel">
-                            <a href="product.html" class="prod-rel-img">
-                                <img src="http://placehold.it/300x303" alt="Reprehenderit rerum">
-                            </a>
-                            <div class="prod-rel-cont">
-                                <h3><a href="product.html">Reprehenderit rerum</a></h3>
-                                <p class="prod-rel-price">
-                                    <b>$210</b>
-                                </p>
-                                <div class="prod-rel-actions">
-                                    <a title="Wishlist" href="#" class="prod-rel-favorites"><i class="fa fa-heart"></i></a>
-                                    <a title="Compare" href="#" class="prod-rel-compare"><i class="fa fa-bar-chart"></i></a>
-                                    <p class="prod-i-addwrap">
-                                        <a title="Add to cart" href="#" class="prod-i-add"><i class="fa fa-shopping-cart"></i></a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-
-
-                        <div class="prod-rel">
-                            <a href="product.html" class="prod-rel-img">
-                                <img src="http://placehold.it/300x588" alt="Quae quasi adipisci alias">
-                            </a>
-                            <div class="prod-rel-cont">
-                                <h3><a href="product.html">Quae quasi adipisci alias</a></h3>
-                                <p class="prod-rel-price">
-                                    <b>$85</b>
-                                </p>
-                                <div class="prod-rel-actions">
-                                    <a title="Wishlist" href="#" class="prod-rel-favorites"><i class="fa fa-heart"></i></a>
-                                    <a title="Compare" href="#" class="prod-rel-compare"><i class="fa fa-bar-chart"></i></a>
-                                    <p class="prod-i-addwrap">
-                                        <a title="Add to cart" href="#" class="prod-i-add"><i class="fa fa-shopping-cart"></i></a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    <li class="prod-rel-wrap">
-                        <div class="prod-rel">
-                            <a href="product.html" class="prod-rel-img">
-                                <img src="http://placehold.it/300x416" alt="Maxime molestias necessitatibus nobis">
-                            </a>
-                            <div class="prod-rel-cont">
-                                <h3><a href="product.html">Maxime molestias necessitatibus nobis</a></h3>
-                                <p class="prod-rel-price">
-                                    <b>$95</b>
-                                </p>
-                                <div class="prod-rel-actions">
-                                    <a title="Wishlist" href="#" class="prod-rel-favorites"><i class="fa fa-heart"></i></a>
-                                    <a title="Compare" href="#" class="prod-rel-compare"><i class="fa fa-bar-chart"></i></a>
-                                    <p class="prod-i-addwrap">
-                                        <a title="Add to cart" href="#" class="prod-i-add"><i class="fa fa-shopping-cart"></i></a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-
-
-                        <div class="prod-rel">
-                            <a href="product.html" class="prod-rel-img">
-                                <img src="http://placehold.it/300x480" alt="Facilis illum">
-                            </a>
-                            <div class="prod-rel-cont">
-                                <h3><a href="product.html">Facilis illum</a></h3>
-                                <p class="prod-rel-price">
-                                    <b>$150</b>
-                                </p>
-                                <div class="prod-rel-actions">
-                                    <a title="Wishlist" href="#" class="prod-rel-favorites"><i class="fa fa-heart"></i></a>
-                                    <a title="Compare" href="#" class="prod-rel-compare"><i class="fa fa-bar-chart"></i></a>
-                                    <p class="prod-i-addwrap">
-                                        <a title="Add to cart" href="#" class="prod-i-add"><i class="fa fa-shopping-cart"></i></a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
+                        <?php } ?>
                     </li>
                 </ul>
             </div>

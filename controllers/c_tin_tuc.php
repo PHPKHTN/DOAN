@@ -34,6 +34,7 @@ class C_tin_tuc
 		include("models/m_tin_tuc.php");
 		$m_tin_tuc = new M_tin_tuc();
 		$tin_tuc = $m_tin_tuc->Doc_tin_tuc_theo_ma_tin_tuc($ma_tin);
+		$ds_san_pham = $m_tin_tuc->Doc_san_pham();
 
 		include("controllers/Smarty_shop_mobile.php");
 		$smarty = new Smarty_shop_mobile();
@@ -41,6 +42,7 @@ class C_tin_tuc
 		$view = "views/tin_tuc/v_chi_tiet_tin_tuc.tpl";
 		$smarty->assign("view", $view);
 		$smarty->assign("tin_tuc", $tin_tuc);
+		$smarty->assign("ds_san_pham", $ds_san_pham);
 		$smarty->display("tin_tuc/layout.tpl");
 	}
 }

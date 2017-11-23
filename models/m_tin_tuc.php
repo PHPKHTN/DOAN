@@ -22,6 +22,16 @@
 			$sql = "select * from tin_tuc where ma_tin=?";
 			$this->setQuery($sql);
 			return $this->loadRow(array($ma_tin));
+<<<<<<< HEAD
+=======
+		}
+
+		public function Doc_san_pham()
+		{
+			$sql = "SELECT s.*, h.* FROM san_pham s, hinh_san_pham h WHERE s.ma_san_pham = h.ma_san_pham and h.thumbnail = 1 ORDER BY rand() LIMIT 5";
+			$this->setQuery($sql);
+			return $this->loadAllRows();
+>>>>>>> fb5ff16a3f30db068268a36e7988beb4de71b58e
 		}
 	}
 ?>
