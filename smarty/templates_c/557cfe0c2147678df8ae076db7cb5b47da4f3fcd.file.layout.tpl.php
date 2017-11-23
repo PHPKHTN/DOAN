@@ -1,100 +1,57 @@
-<<<<<<< HEAD
-<?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 17:11:49
+<?php /* Smarty version Smarty-3.1.18, created on 2017-11-23 17:34:26
          compiled from "smarty\templates\tin_tuc\layout.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:146635a15afd503b3f0-15988325%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
-=======
-<?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 17:13:19
-         compiled from "smarty\templates\tin_tuc\layout.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:111725a15b02f244964-61862159%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
->>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
+<?php /*%%SmartyHeaderCode:197105a1706a2ba2cb5-38430333%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '557cfe0c2147678df8ae076db7cb5b47da4f3fcd' => 
     array (
       0 => 'smarty\\templates\\tin_tuc\\layout.tpl',
-<<<<<<< HEAD
-      1 => 1511270362,
-=======
       1 => 1511369878,
->>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
       2 => 'file',
     ),
     'e0734278ae9da0e34a12899ed984b77d116c8cf5' => 
     array (
       0 => 'smarty\\templates\\layout.tpl',
-<<<<<<< HEAD
-      1 => 1511270362,
-=======
       1 => 1511369878,
->>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
       2 => 'file',
     ),
     'd83077e51f0c7f8703094d8c498c56a0adc8e871' => 
     array (
       0 => 'smarty\\templates\\slider.tpl',
-<<<<<<< HEAD
-      1 => 1511270362,
-=======
       1 => 1511369878,
->>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
       2 => 'file',
     ),
     '6652bf75f43eb8665356b88e8a0e2401680ee1b9' => 
     array (
       0 => 'smarty\\templates\\header.tpl',
-<<<<<<< HEAD
-      1 => 1511369540,
-      2 => 'file',
-    ),
-  ),
-  'nocache_hash' => '146635a15afd503b3f0-15988325',
-=======
       1 => 1511370734,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '111725a15b02f244964-61862159',
->>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
+  'nocache_hash' => '197105a1706a2ba2cb5-38430333',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.18',
-<<<<<<< HEAD
-  'unifunc' => 'content_5a15afd50a8a09_58649103',
+  'unifunc' => 'content_5a1706a30d6105_66683278',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a15afd50a8a09_58649103')) {function content_5a15afd50a8a09_58649103($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ("head.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+<?php if ($_valid && !is_callable('content_5a1706a30d6105_66683278')) {function content_5a1706a30d6105_66683278($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ("head.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
 <?php /*  Call merged included template "header.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '146635a15afd503b3f0-15988325');
-content_5a15afd5081908_04757524($_smarty_tpl);
-=======
-  'unifunc' => 'content_5a15b02f2de224_32924863',
-),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a15b02f2de224_32924863')) {function content_5a15b02f2de224_32924863($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ("head.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
-
-<?php /*  Call merged included template "header.tpl" */
-$_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '111725a15b02f244964-61862159');
-content_5a15b02f29f914_45302799($_smarty_tpl);
->>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '197105a1706a2ba2cb5-38430333');
+content_5a1706a302a895_28642973($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "header.tpl" */?>
 <?php echo $_smarty_tpl->getSubTemplate ("content.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
 <?php echo $_smarty_tpl->getSubTemplate ("footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 <?php }} ?>
-<<<<<<< HEAD
-<?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 17:11:49
+<?php /* Smarty version Smarty-3.1.18, created on 2017-11-23 17:34:27
          compiled from "smarty\templates\header.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5a15afd5081908_04757524')) {function content_5a15afd5081908_04757524($_smarty_tpl) {?><header class="header">
-=======
-<?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 17:13:19
-         compiled from "smarty\templates\header.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5a15b02f29f914_45302799')) {function content_5a15b02f29f914_45302799($_smarty_tpl) {?><header class="header">
->>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
+<?php if ($_valid && !is_callable('content_5a1706a302a895_28642973')) {function content_5a1706a302a895_28642973($_smarty_tpl) {?><header class="header">
 
     <!-- Topbar - start -->
     <div class="header_top">
@@ -204,73 +161,6 @@ $_smarty_tpl = array_pop($_tpl_stack);
                             Trang chủ
                         </a>
                     </li>
-<<<<<<< HEAD
-                    <li class="menu-item-has-children">
-                        <a href="dien_thoai.php">
-                            Điện thoại <i class="fa fa-angle-down"></i>
-                        </a>
-                        <ul class="sub-menu">
-                            <li>
-                                <a href="catalog-list.html">
-                                    Catalog List - Style 1
-                                </a>
-                            </li>
-                            <li>
-                                <a href="catalog-list-2.html">
-                                    Catalog List - Style 2
-                                </a>
-                            </li>
-                            <li>
-                                <a href="catalog-gallery.html">
-                                    Catalog Gallery - Style 1
-                                </a>
-                            </li>
-                            <li>
-                                <a href="catalog-gallery-2.html">
-                                    Catalog Gallery - Style 2
-                                </a>
-                            </li>
-                            <li>
-                                <a href="catalog-table.html">
-                                    Catalog Table
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children">
-                        <a href="tablet.php">
-                            Tablet <i class="fa fa-angle-down"></i>
-                        </a>
-                        <ul class="sub-menu">
-                            <li>
-                                <a href="product.html">
-                                    Product - Style 1 (Slider)
-                                </a>
-                            </li>
-                            <li>
-                                <a href="product-2.html">
-                                    Product - Style 2 (Scroll)
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children">
-                        <a href="phu_kien.php">
-                            Phụ Kiện <i class="fa fa-angle-down"></i>
-                        </a>
-                        <ul class="sub-menu">
-                            <li>
-                                <a href="product.html">
-                                    Product - Style 1 (Slider)
-                                </a>
-                            </li>
-                            <li>
-                                <a href="product-2.html">
-                                    Product - Style 2 (Scroll)
-                                </a>
-                            </li>
-                        </ul>
-=======
                     <li>
                         <a href="dien_thoai.php">
                             Điện thoại
@@ -285,7 +175,6 @@ $_smarty_tpl = array_pop($_tpl_stack);
                         <a href="phu_kien.php">
                             Phụ Kiện
                         </a>
->>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
                     </li>
                     <li>
                         <a href="tin_tuc.php">
@@ -324,15 +213,9 @@ $_smarty_tpl = array_pop($_tpl_stack);
 <main>
     <section class="container">
         <?php }} ?>
-<<<<<<< HEAD
-<?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 17:11:49
+<?php /* Smarty version Smarty-3.1.18, created on 2017-11-23 17:34:27
          compiled from "smarty\templates\slider.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5a15afd5089604_01527731')) {function content_5a15afd5089604_01527731($_smarty_tpl) {?><div class="fr-slider-wrap">
-=======
-<?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 17:13:19
-         compiled from "smarty\templates\slider.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5a15b02f2b13c7_01464146')) {function content_5a15b02f2b13c7_01464146($_smarty_tpl) {?><div class="fr-slider-wrap">
->>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
+<?php if ($_valid && !is_callable('content_5a1706a3050400_87508970')) {function content_5a1706a3050400_87508970($_smarty_tpl) {?><div class="fr-slider-wrap">
             <div class="fr-slider">
                 <ul class="slides">
                     <li>
