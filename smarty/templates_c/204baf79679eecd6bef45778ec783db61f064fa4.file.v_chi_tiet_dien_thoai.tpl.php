@@ -1,29 +1,29 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2017-11-23 12:05:28
+<?php /* Smarty version Smarty-3.1.18, created on 2017-11-23 17:18:17
          compiled from "views\dien_thoai\v_chi_tiet_dien_thoai.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:317755a16b692bdcb27-86724415%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:90965a1702d953f291-85766691%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '204baf79679eecd6bef45778ec783db61f064fa4' => 
     array (
       0 => 'views\\dien_thoai\\v_chi_tiet_dien_thoai.tpl',
-      1 => 1511438723,
+      1 => 1511457302,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '317755a16b692bdcb27-86724415',
+  'nocache_hash' => '90965a1702d953f291-85766691',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.18',
-  'unifunc' => 'content_5a16b692c0f9a9_73781451',
   'variables' => 
   array (
     'dien_thoai' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.18',
+  'unifunc' => 'content_5a1702d95c7e33_30523830',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a16b692c0f9a9_73781451')) {function content_5a16b692c0f9a9_73781451($_smarty_tpl) {?><!-- Single Product - start -->
+<?php if ($_valid && !is_callable('content_5a1702d95c7e33_30523830')) {function content_5a1702d95c7e33_30523830($_smarty_tpl) {?><!-- Single Product - start -->
 		<div class="prod-wrap">
 
 			<!-- Product Images -->

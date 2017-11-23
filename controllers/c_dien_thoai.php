@@ -6,13 +6,8 @@ class C_dien_thoai
 		include("models/m_dien_thoai.php");
 		$m_dien_thoai = new M_dien_thoai();
 		$ds_dien_thoai = $m_dien_thoai->Doc_dien_thoai();
-<<<<<<< HEAD
 		$ds_hang_san_xuat = $m_dien_thoai->Doc_danh_sach_nha_san_xuat();
-        include "Pager.php";
-=======
-
         include("Pager.php");
->>>>>>> fb12ecff1fd97bc8a531739717ece300c4b8957f
         $p = new pager();
         $limit = 9;
         $count = count($ds_dien_thoai);

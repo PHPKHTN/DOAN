@@ -14,9 +14,6 @@
                 $sql .= " limit $vt, $limit";
             }
 			$this->setQuery($sql);
-<<<<<<< HEAD
-			$asd=$this->loadAllRows();
-=======
 			return $this->loadAllRows();
 		}
 
@@ -25,7 +22,6 @@
 			$sql = "select * from tin_tuc where ma_tin=?";
 			$this->setQuery($sql);
 			return $this->loadRow(array($ma_tin));
->>>>>>> fb12ecff1fd97bc8a531739717ece300c4b8957f
 		}
 
 		public function Doc_san_pham()

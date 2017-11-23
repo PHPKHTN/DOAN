@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 19:02:25
+<?php /* Smarty version Smarty-3.1.18, created on 2017-11-23 17:16:13
          compiled from "smarty\templates\layout.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:326385a15c9c13f4db9-52776803%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:277235a17025d92ac38-55509236%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -23,29 +23,29 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '326385a15c9c13f4db9-52776803',
+  'nocache_hash' => '277235a17025d92ac38-55509236',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.18',
-  'unifunc' => 'content_5a15c9c146a0b6_69630799',
+  'unifunc' => 'content_5a17025dc286f7_56640481',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a15c9c146a0b6_69630799')) {function content_5a15c9c146a0b6_69630799($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ("head.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+<?php if ($_valid && !is_callable('content_5a17025dc286f7_56640481')) {function content_5a17025dc286f7_56640481($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ("head.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
 <?php /*  Call merged included template "header.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '326385a15c9c13f4db9-52776803');
-content_5a15c9c1442fb2_18671184($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '277235a17025d92ac38-55509236');
+content_5a17025dbb7258_95394078($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "header.tpl" */?>
 <?php echo $_smarty_tpl->getSubTemplate ("content.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
 <?php echo $_smarty_tpl->getSubTemplate ("footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 <?php }} ?>
-<?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 19:02:25
+<?php /* Smarty version Smarty-3.1.18, created on 2017-11-23 17:16:13
          compiled from "smarty\templates\header.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5a15c9c1442fb2_18671184')) {function content_5a15c9c1442fb2_18671184($_smarty_tpl) {?><header class="header">
+<?php if ($_valid && !is_callable('content_5a17025dbb7258_95394078')) {function content_5a17025dbb7258_95394078($_smarty_tpl) {?><header class="header">
 
     <!-- Topbar - start -->
     <div class="header_top">
@@ -208,13 +208,13 @@ $_smarty_tpl = array_pop($_tpl_stack);
     <section class="container">
         <?php /*  Call merged included template "slider.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("slider.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '326385a15c9c13f4db9-52776803');
-content_5a15c9c1442fb0_56902147($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("slider.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '277235a17025d92ac38-55509236');
+content_5a17025dbe21e2_17177420($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "slider.tpl" */?><?php }} ?>
-<?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 19:02:25
+<?php /* Smarty version Smarty-3.1.18, created on 2017-11-23 17:16:13
          compiled from "smarty\templates\slider.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5a15c9c1442fb0_56902147')) {function content_5a15c9c1442fb0_56902147($_smarty_tpl) {?><div class="fr-slider-wrap">
+<?php if ($_valid && !is_callable('content_5a17025dbe21e2_17177420')) {function content_5a17025dbe21e2_17177420($_smarty_tpl) {?><div class="fr-slider-wrap">
             <div class="fr-slider">
                 <ul class="slides">
                     <li>

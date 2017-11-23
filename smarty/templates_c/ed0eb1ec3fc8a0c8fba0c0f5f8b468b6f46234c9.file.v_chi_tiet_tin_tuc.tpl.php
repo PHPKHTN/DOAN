@@ -1,22 +1,20 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2017-11-23 17:08:44
+<?php /* Smarty version Smarty-3.1.18, created on 2017-11-23 17:19:51
          compiled from "views\tin_tuc\v_chi_tiet_tin_tuc.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:286635a15c9cf7e6f99-88906233%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:38295a170337d95913-26970530%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'ed0eb1ec3fc8a0c8fba0c0f5f8b468b6f46234c9' => 
     array (
       0 => 'views\\tin_tuc\\v_chi_tiet_tin_tuc.tpl',
-      1 => 1511456922,
+      1 => 1511456940,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '286635a15c9cf7e6f99-88906233',
+  'nocache_hash' => '38295a170337d95913-26970530',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.18',
-  'unifunc' => 'content_5a15c9cf8aa491_35276134',
   'variables' => 
   array (
     'tin_tuc' => 0,
@@ -24,8 +22,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'ds' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.18',
+  'unifunc' => 'content_5a170337e2a030_50304851',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a15c9cf8aa491_35276134')) {function content_5a15c9cf8aa491_35276134($_smarty_tpl) {?><!-- Main Content - start -->
+<?php if ($_valid && !is_callable('content_5a170337e2a030_50304851')) {function content_5a170337e2a030_50304851($_smarty_tpl) {?><!-- Main Content - start -->
 <main>
     <section class="container">
         <ul class="b-crumbs">
@@ -57,7 +57,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <div class="flexslider post-slider" id="post-slider-car">
                 <ul class="slides">
                     <li>
-                        <a data-fancybox-group="" class="" href="public/images/sidebar-slide1.jpg"><img src="public/images/sidebar-slide1.jpg" width='1000px' alt=""></a>
+                        <a data-fancybox-group="fancy-img" class="" href="public/images/sidebar-slide1.jpg"><img src="public/images/sidebar-slide1.jpg" alt=""></a>
                     </li>
                     <li>
                         <a data-fancybox-group="fancy-img" class="fancy-img" href="public/images/sidebar-slide2.jpg"><img src="public/images/sidebar-slide2.jpg" alt=""></a>

@@ -1,41 +1,17 @@
-<<<<<<< HEAD
-<?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 19:02:31
-=======
-<<<<<<< HEAD
-<?php /* Smarty version Smarty-3.1.18, created on 2017-11-23 11:24:57
-=======
-<<<<<<< HEAD
-<?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 17:11:38
-=======
-<?php /* Smarty version Smarty-3.1.18, created on 2017-11-22 17:12:17
->>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
->>>>>>> fb12ecff1fd97bc8a531739717ece300c4b8957f
->>>>>>> 651f2d993654372d21964de4e42c0ef589fc7c75
+<?php /* Smarty version Smarty-3.1.18, created on 2017-11-23 17:17:18
          compiled from "views\dien_thoai\v_dien_thoai.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:301485a15c9c7a20214-02826454%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:303205a17029e593a49-45637301%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '9f1b7b9079055453df256e4828aa946732a7e961' => 
     array (
       0 => 'views\\dien_thoai\\v_dien_thoai.tpl',
-<<<<<<< HEAD
-      1 => 1511377252,
-=======
-<<<<<<< HEAD
-      1 => 1511435796,
-=======
-<<<<<<< HEAD
-      1 => 1511370677,
-=======
-      1 => 1511370625,
->>>>>>> 0ae71af640aff0076fbe1cc3fb83397d01508c51
->>>>>>> fb12ecff1fd97bc8a531739717ece300c4b8957f
->>>>>>> 651f2d993654372d21964de4e42c0ef589fc7c75
+      1 => 1511457302,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '301485a15c9c7a20214-02826454',
+  'nocache_hash' => '303205a17029e593a49-45637301',
   'function' => 
   array (
   ),
@@ -46,9 +22,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.18',
-  'unifunc' => 'content_5a15c9c7a47314_44239359',
+  'unifunc' => 'content_5a17029e5aefc6_95271662',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a15c9c7a47314_44239359')) {function content_5a15c9c7a47314_44239359($_smarty_tpl) {?><!-- Main Content - start -->
+<?php if ($_valid && !is_callable('content_5a17029e5aefc6_95271662')) {function content_5a17029e5aefc6_95271662($_smarty_tpl) {?><!-- Main Content - start -->
 <main>
 	<section class="container">
 
