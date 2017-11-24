@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.14, created on 2017-11-14 13:12:25
+<?php /* Smarty version Smarty-3.1.14, created on 2017-11-24 10:57:50
          compiled from "Smarty\templates\nav.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:10895a0ad43cdc0a96-67248264%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '7e1e8504ca6dc69671c973eed969f8559d02a9a1' => 
     array (
       0 => 'Smarty\\templates\\nav.tpl',
-      1 => 1510661541,
+      1 => 1511521067,
       2 => 'file',
     ),
   ),
@@ -51,23 +51,24 @@ $(function() {
   </li>
   
   <li>
-  <a href="#" class="nav-top-item" id="tintuc"> Tin tức </a>
+  <a href="#" class="nav-top-item" id="tintuc">Sản phẩm</a>
     <ul>
-      <li><a href="tintuc.php" title="tintuc">Danh sách tin tức</a></li>
-      <li><a href="themtintuc.php" title="tintuc">Thêm tin tức</a></li>
+      <li><a href="san_pham.php" title="tintuc">Danh sách sản phẩm</a></li>
+      <li><a href="themtintuc.php" title="tintuc">Thêm sản phẩm</a></li>
     </ul>
   </li>
-  <li> 
-  <a href="#" class="nav-top-item" id="loaimon"> Loại món ăn </a>
+  <li>
+  <a href="#" class="nav-top-item" id="tintuc">Hãng sản xuất</a>
     <ul>
-      <li><a href="loaimonan.php" title="loaimon">Danh sách loại món ăn</a></li>
-      <li><a href="themloaimonan.php" title="loaimon" >Thêm loại món ăn</a></li>
+      <li><a href="tintuc.php" title="tintuc">Danh sách Hãng sản xuất</a></li>
+      <li><a href="themtintuc.php" title="tintuc">Thêm Hãng sản xuất</a></li>
     </ul>
   </li>
-  <li> <a href="#" class="nav-top-item" id="monan"> Món ăn </a>
+  <li>
+  <a href="#" class="nav-top-item" id="tintuc">Loại sản phẩm</a>
     <ul>
-      <li><a href="monan.php" title="monan">Danh sách món ăn</a></li>
-      <li><a href="themmonan.php" title="monan">Thêm món ăn</a></li>
+      <li><a href="tintuc.php" title="tintuc">Danh sách loại sản phẩm</a></li>
+      <li><a href="themtintuc.php" title="tintuc">Thêm loại sản phẩm</a></li>
     </ul>
   </li>
   <li> <a href="#" class="nav-top-item" id="user"> User </a>

@@ -27,7 +27,7 @@ if(isset($_SESSION["error"]))
 <body id="login">
 		<div id="login-wrapper" class="png_bg">
 			<div id="login-top">
-                <h1>Hệ quản trị CMS Nhà Hàng</h1>
+                <h1>Hệ quản trị Cửa Hàng điện thoại HTT</h1>
 				<!-- Logo (221px width) -->
 				<img id="logo" src="public/layout/resources/images/Alphatek.png" alt="Nhà Hàng Admin logo" />
 			</div> <!-- End #logn-top -->

@@ -16,7 +16,11 @@
             }
         }
 
+<<<<<<< HEAD
         function lay_thong_tin_san_pham($san_pham)
+=======
+        function lay_thong_tin_dien_thoai($san_pham)
+>>>>>>> 2c958668c3aff99a9013d6397222ceeaaa4ae4f1
         {
             $ma_san_pham = array();
             foreach($san_pham as $key=>$value)
@@ -26,12 +30,21 @@
             $ma_san_pham = implode(",",$ma_san_pham);
             include_once('models/m_dien_thoai.php');
             $m_dien_thoai = new M_dien_thoai();
+<<<<<<< HEAD
             $ds_dien_thoai = $m_dien_thoai->lay_san_pham_cho_gio_hang($ma_san_pham);
             $ds_san_pham_gio_hang = array();
             foreach($ds_dien_thoai as $ds)
             {
                 $ds->so_luong = $san_pham[$ds->ma_san_pham];
                 $ds_san_pham_gio_hang[] = $ds;
+=======
+            $ds_dien_thoai = $m_dien_thoai->lay_dien_thoai_cho_gio_hang($ma_san_pham);
+            $ds_dien_thoai_gio_hang = array();
+            foreach($ds_dien_thoai as $ds)
+            {
+                $ds->so_luong = $san_pham[$ds->ma_san_pham];
+                $ds_dien_thoai_gio_hang[] = $ds;
+>>>>>>> 2c958668c3aff99a9013d6397222ceeaaa4ae4f1
             }
             return $ds_dien_thoai_gio_hang;
         }
@@ -147,12 +160,15 @@
             $smarty = new Smarty_shop_mobile();
             $smarty->assign('title', "Giỏ hàng");
             $gio_hang = $this->lay_gio_hang();
+<<<<<<< HEAD
             if($gio_hang)
             {
                 $gio_hang_san_pham = array();
                 $_SESSION['gio_hang_san_pham'] = $gio_hang_san_pham;
                 $smarty->assign('ds_san_pham', $this->lay_san_pham_cho_gio_hang($gio_hang_san_pham));   
             }
+=======
+>>>>>>> 2c958668c3aff99a9013d6397222ceeaaa4ae4f1
 			$view = "views/gio_hang/v_gio_hang.tpl";
 			$smarty->assign("view", $view);
 			$smarty->display("dien_thoai/layout.tpl");

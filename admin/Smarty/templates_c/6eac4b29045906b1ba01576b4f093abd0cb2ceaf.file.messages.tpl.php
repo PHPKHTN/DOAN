@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.14, created on 2017-11-14 12:32:12
+<?php /* Smarty version Smarty-3.1.14, created on 2017-11-24 10:38:54
          compiled from "Smarty\templates\messages.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:199425a0ad43cdc8794-93834264%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '6eac4b29045906b1ba01576b4f093abd0cb2ceaf' => 
     array (
       0 => 'Smarty\\templates\\messages.tpl',
-      1 => 1418697632,
+      1 => 1511270304,
       2 => 'file',
     ),
   ),
@@ -15,9 +15,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.14',
   'unifunc' => 'content_5a0ad43cdc8796_16629751',
+  'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5a0ad43cdc8796_16629751')) {function content_5a0ad43cdc8796_16629751($_smarty_tpl) {?><div id="messages" style="display: none"> <!-- Messages are shown when a link with these attributes are clicked: href="#messages" rel="modal"  -->
   

@@ -1,5 +1,9 @@
 $(document).ready(function() {
+<<<<<<< HEAD
             $('a.prod-add').click(function() {
+=======
+            $('a.button-1').click(function() {
+>>>>>>> 2c958668c3aff99a9013d6397222ceeaaa4ae4f1
 
 			
 			var $key=$(this).attr("id");
