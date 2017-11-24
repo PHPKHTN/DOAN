@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2017-11-23 17:18:17
+<?php /* Smarty version Smarty-3.1.18, created on 2017-11-24 08:08:02
          compiled from "views\dien_thoai\v_chi_tiet_dien_thoai.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:90965a1702d953f291-85766691%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '204baf79679eecd6bef45778ec783db61f064fa4' => 
     array (
       0 => 'views\\dien_thoai\\v_chi_tiet_dien_thoai.tpl',
-      1 => 1511457302,
+      1 => 1511457304,
       2 => 'file',
     ),
   ),
@@ -15,13 +15,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.18',
+  'unifunc' => 'content_5a1702d95c7e33_30523830',
   'variables' => 
   array (
     'dien_thoai' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.18',
-  'unifunc' => 'content_5a1702d95c7e33_30523830',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5a1702d95c7e33_30523830')) {function content_5a1702d95c7e33_30523830($_smarty_tpl) {?><!-- Single Product - start -->
 		<div class="prod-wrap">

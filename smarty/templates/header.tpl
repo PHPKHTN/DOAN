@@ -80,9 +80,9 @@
 
                     <li>
                         <div class="h-cart">
-                            <a href="cart.html">
+                            <a href="gio_hang.php">
                                 <i class="fa fa-shopping-cart"></i>
-                                <span class="shop-menu-ttl">Cart</span>
+                                <span class="shop-menu-ttl">Giỏ hàng</span>
                                 (<b>0</b>)
                             </a>
                         </div>

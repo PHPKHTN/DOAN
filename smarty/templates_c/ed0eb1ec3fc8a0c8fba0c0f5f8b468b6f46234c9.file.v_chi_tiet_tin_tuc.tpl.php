@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2017-11-23 17:19:51
+<?php /* Smarty version Smarty-3.1.18, created on 2017-11-24 10:03:25
          compiled from "views\tin_tuc\v_chi_tiet_tin_tuc.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:38295a170337d95913-26970530%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'ed0eb1ec3fc8a0c8fba0c0f5f8b468b6f46234c9' => 
     array (
       0 => 'views\\tin_tuc\\v_chi_tiet_tin_tuc.tpl',
-      1 => 1511456940,
+      1 => 1511517803,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.18',
+  'unifunc' => 'content_5a170337e2a030_50304851',
   'variables' => 
   array (
     'tin_tuc' => 0,
@@ -22,8 +24,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'ds' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.18',
-  'unifunc' => 'content_5a170337e2a030_50304851',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5a170337e2a030_50304851')) {function content_5a170337e2a030_50304851($_smarty_tpl) {?><!-- Main Content - start -->
 <main>

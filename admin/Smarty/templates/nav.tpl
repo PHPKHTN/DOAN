@@ -30,23 +30,24 @@ $(function() {
   </li>
   
   <li>
-  <a href="#" class="nav-top-item" id="tintuc"> Tin tức </a>
+  <a href="#" class="nav-top-item" id="tintuc">Sản phẩm</a>
     <ul>
-      <li><a href="tintuc.php" title="tintuc">Danh sách tin tức</a></li>
-      <li><a href="themtintuc.php" title="tintuc">Thêm tin tức</a></li>
+      <li><a href="san_pham.php" title="tintuc">Danh sách sản phẩm</a></li>
+      <li><a href="themtintuc.php" title="tintuc">Thêm sản phẩm</a></li>
     </ul>
   </li>
-  <li> 
-  <a href="#" class="nav-top-item" id="loaimon"> Loại món ăn </a>
+  <li>
+  <a href="#" class="nav-top-item" id="tintuc">Hãng sản xuất</a>
     <ul>
-      <li><a href="loaimonan.php" title="loaimon">Danh sách loại món ăn</a></li>
-      <li><a href="themloaimonan.php" title="loaimon" >Thêm loại món ăn</a></li>
+      <li><a href="tintuc.php" title="tintuc">Danh sách Hãng sản xuất</a></li>
+      <li><a href="themtintuc.php" title="tintuc">Thêm Hãng sản xuất</a></li>
     </ul>
   </li>
-  <li> <a href="#" class="nav-top-item" id="monan"> Món ăn </a>
+  <li>
+  <a href="#" class="nav-top-item" id="tintuc">Loại sản phẩm</a>
     <ul>
-      <li><a href="monan.php" title="monan">Danh sách món ăn</a></li>
-      <li><a href="themmonan.php" title="monan">Thêm món ăn</a></li>
+      <li><a href="tintuc.php" title="tintuc">Danh sách loại sản phẩm</a></li>
+      <li><a href="themtintuc.php" title="tintuc">Thêm loại sản phẩm</a></li>
     </ul>
   </li>
   <li> <a href="#" class="nav-top-item" id="user"> User </a>

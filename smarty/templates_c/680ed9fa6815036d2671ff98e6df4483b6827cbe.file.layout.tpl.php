@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2017-11-23 17:18:37
+<?php /* Smarty version Smarty-3.1.18, created on 2017-11-24 10:00:45
          compiled from "smarty\templates\phu_kien\layout.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:255545a1702ed19a131-12696559%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,25 +7,25 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '680ed9fa6815036d2671ff98e6df4483b6827cbe' => 
     array (
       0 => 'smarty\\templates\\phu_kien\\layout.tpl',
-      1 => 1511270362,
+      1 => 1511270364,
       2 => 'file',
     ),
     'e0734278ae9da0e34a12899ed984b77d116c8cf5' => 
     array (
       0 => 'smarty\\templates\\layout.tpl',
-      1 => 1511270362,
+      1 => 1511270364,
       2 => 'file',
     ),
     'd83077e51f0c7f8703094d8c498c56a0adc8e871' => 
     array (
       0 => 'smarty\\templates\\slider.tpl',
-      1 => 1511270362,
+      1 => 1511270364,
       2 => 'file',
     ),
     '6652bf75f43eb8665356b88e8a0e2401680ee1b9' => 
     array (
       0 => 'smarty\\templates\\header.tpl',
-      1 => 1511377252,
+      1 => 1511511826,
       2 => 'file',
     ),
   ),
@@ -33,25 +33,25 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.18',
   'unifunc' => 'content_5a1702ed226b58_82748390',
+  'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5a1702ed226b58_82748390')) {function content_5a1702ed226b58_82748390($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ("head.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
 <?php /*  Call merged included template "header.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '255545a1702ed19a131-12696559');
-content_5a1702ed1f0055_66243157($_smarty_tpl);
+content_5a17edcd43b812_62234163($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "header.tpl" */?>
 <?php echo $_smarty_tpl->getSubTemplate ("content.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
 <?php echo $_smarty_tpl->getSubTemplate ("footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 <?php }} ?>
-<?php /* Smarty version Smarty-3.1.18, created on 2017-11-23 17:18:37
+<?php /* Smarty version Smarty-3.1.18, created on 2017-11-24 10:00:45
          compiled from "smarty\templates\header.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5a1702ed1f0055_66243157')) {function content_5a1702ed1f0055_66243157($_smarty_tpl) {?><header class="header">
+<?php if ($_valid && !is_callable('content_5a17edcd43b812_62234163')) {function content_5a17edcd43b812_62234163($_smarty_tpl) {?><header class="header">
 
     <!-- Topbar - start -->
     <div class="header_top">
@@ -133,9 +133,9 @@ $_smarty_tpl = array_pop($_tpl_stack);
 
                     <li>
                         <div class="h-cart">
-                            <a href="cart.html">
+                            <a href="gio_hang.php">
                                 <i class="fa fa-shopping-cart"></i>
-                                <span class="shop-menu-ttl">Cart</span>
+                                <span class="shop-menu-ttl">Giỏ hàng</span>
                                 (<b>0</b>)
                             </a>
                         </div>
@@ -213,9 +213,9 @@ $_smarty_tpl = array_pop($_tpl_stack);
 <main>
     <section class="container">
         <?php }} ?>
-<?php /* Smarty version Smarty-3.1.18, created on 2017-11-23 17:18:37
+<?php /* Smarty version Smarty-3.1.18, created on 2017-11-24 10:00:45
          compiled from "smarty\templates\slider.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5a1702ed1fbbd0_43670478')) {function content_5a1702ed1fbbd0_43670478($_smarty_tpl) {?><div class="fr-slider-wrap">
+<?php if ($_valid && !is_callable('content_5a17edcd44a160_56368591')) {function content_5a17edcd44a160_56368591($_smarty_tpl) {?><div class="fr-slider-wrap">
             <div class="fr-slider">
                 <ul class="slides">
                     <li>

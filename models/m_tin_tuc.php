@@ -26,7 +26,7 @@
 
 		public function Doc_san_pham()
 		{
-			$sql = "SELECT s.*, h.* FROM san_pham s, hinh_san_pham h WHERE s.ma_san_pham = h.ma_san_pham and h.thumbnail = 1 ORDER BY rand() LIMIT 5";
+			$sql = "SELECT s.*, h.* FROM san_pham s, hinh_san_pham h WHERE s.ma_san_pham = h.ma_san_pham ORDER BY rand() LIMIT 5";
 			$this->setQuery($sql);
 			return $this->loadAllRows();
 		}
