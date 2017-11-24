@@ -8,7 +8,7 @@
 							<a href="#" class="qview-btn prod-i-qview" ><span>Quick View</span><i class="fa fa-search"></i></a>
 							<a class="prod-i-compare" href="#"><span>Compare</span><i class="fa fa-bar-chart"></i></a>
 						</p>
-						<a href="#" class="prod-i-buy">Add to cart</a>
+						<a href="javascript:void(0)" id="{$ds->ma_san_pham}" class="prod-i-buy">Add to cart</a>
 						<p class="prod-i-properties-label"><i class="fa fa-info"></i></p>
 
 						<div class="prod-i-properties">

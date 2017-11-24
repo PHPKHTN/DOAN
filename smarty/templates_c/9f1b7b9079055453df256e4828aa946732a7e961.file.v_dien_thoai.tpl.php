@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2017-11-23 17:17:18
+<?php /* Smarty version Smarty-3.1.18, created on 2017-11-24 18:05:12
          compiled from "views\dien_thoai\v_dien_thoai.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:303205a17029e593a49-45637301%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '9f1b7b9079055453df256e4828aa946732a7e961' => 
     array (
       0 => 'views\\dien_thoai\\v_dien_thoai.tpl',
-      1 => 1511457302,
+      1 => 1511546442,
       2 => 'file',
     ),
   ),
@@ -15,14 +15,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.18',
+  'unifunc' => 'content_5a17029e5aefc6_95271662',
   'variables' => 
   array (
     'title' => 0,
     'ds' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.18',
-  'unifunc' => 'content_5a17029e5aefc6_95271662',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5a17029e5aefc6_95271662')) {function content_5a17029e5aefc6_95271662($_smarty_tpl) {?><!-- Main Content - start -->
 <main>
@@ -54,7 +54,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 					<div class="prod-slider">
 						<ul class="prod-slider-car">
 							<li>
-								<a data-fancybox-group="popup-product" class="fancy-img" href="http://placehold.it/500x525">
+								<a data-fancybox-group="popup-product" class="fancy-img" href="public/images/san_pham/<?php echo $_smarty_tpl->tpl_vars['ds']->value->hinh;?>
+">
 									<img src="public/images/san_pham/<?php echo $_smarty_tpl->tpl_vars['ds']->value->hinh;?>
 " alt="">
 								</a>

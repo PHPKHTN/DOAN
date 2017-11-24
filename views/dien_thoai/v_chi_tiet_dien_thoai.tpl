@@ -76,7 +76,7 @@
 						<a href="#" class="prod-minus"><i class="fa fa-angle-down"></i></a>
 					</p>
 					<p class="prod-addwrap">
-						<a href="#" class="prod-add" rel="nofollow">Add to cart</a>
+						<a href="javascript:void(0)" id="{$dien_thoai->ma_san_pham}" class="prod-add" rel="nofollow">Add to cart</a>
 					</p>
 				</div>
 				<ul class="prod-i-props">

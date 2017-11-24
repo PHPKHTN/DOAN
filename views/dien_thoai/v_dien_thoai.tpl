@@ -24,7 +24,7 @@
 					<div class="prod-slider">
 						<ul class="prod-slider-car">
 							<li>
-								<a data-fancybox-group="popup-product" class="fancy-img" href="http://placehold.it/500x525">
+								<a data-fancybox-group="popup-product" class="fancy-img" href="public/images/san_pham/{$ds->hinh}">
 									<img src="public/images/san_pham/{$ds->hinh}" alt="">
 								</a>
 							</li>

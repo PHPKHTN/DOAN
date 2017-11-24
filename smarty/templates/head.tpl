@@ -21,5 +21,7 @@
     <link rel="stylesheet" href="public/css/style.css">
     <link rel="stylesheet" href="public/css/media.css">
     <script src="ajax/thu_vien_ajax.js" type="text/javascript"></script>
+    <script src="ajax/ajax_cart.js" type="text/javascript"></script>
+    <script src="ajax/ajax_xoa_cart.js" type="text/javascript"></script>
 
 </head>
